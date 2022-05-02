@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "locked=true,pitch=1": {
+      "model": "btnote:note_two_locked_ll"
+    },
+    "locked=true,pitch=2": {
+      "model": "btnote:note_two_locked_l"
+    },
+    "locked=true,pitch=3": {
+      "model": "btnote:note_two_locked"
+    },
+    "locked=true,pitch=4": {
+      "model": "btnote:note_two_locked_h"
+    },
+    "locked=true,pitch=5": {
+      "model": "btnote:note_two_locked_hh"
+    },
+    "locked=false,pitch=1": {
+      "model": "btnote:note_two_ll"
+    },
+    "locked=false,pitch=2": {
+      "model": "btnote:note_two_l"
+    },
+    "locked=false,pitch=3": {
+      "model": "btnote:note_two"
+    },
+    "locked=false,pitch=4": {
+      "model": "btnote:note_two_h"
+    },
+    "locked=false,pitch=5": {
+      "model": "btnote:note_two_hh"
+    }
+  }
+}

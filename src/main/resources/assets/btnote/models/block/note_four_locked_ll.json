@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "btnote:blocks/note_four_locked_ll"
+  }
+}

@@ -1,0 +1,14 @@
+//item
+item.note_tools.name=Tools for btnote
+item.pitch_tools.name=Pitch tools
+tile.note_x.name=Noteblock of X
+tile.note_one.name=Noteblock of 1
+tile.note_two.name=Noteblock of 2
+tile.note_three.name=Noteblock of 3
+tile.note_four.name=Noteblock of 4
+tile.note_five.name=Noteblock of 5
+tile.note_six.name=Noteblock of 6
+tile.note_seven.name=Noteblock of 7
+itemGroup.btnotetab = Tab of Btnote
+item.piano.name=Piano
+item.piano.description=Right click the bt_note block to set timbre

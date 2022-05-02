@@ -1,0 +1,16 @@
+//item
+item.note_tools.name=阴乐工具
+item.note_tools.description=快到飞起了~
+item.pitch_tools.name=调阴工具♂
+item.pitch_tools.description=干点正事吧巴巴托斯
+tile.note_x.name=阴符盒 X
+tile.note_one.name=阴符盒 1
+tile.note_two.name=阴符盒 2
+tile.note_three.name=阴符盒 3
+tile.note_four.name=阴符盒 4
+tile.note_five.name=阴符盒 5
+tile.note_six.name=阴符盒 6
+tile.note_seven.name=阴符盒 7
+itemGroup.btnotetab=更好的阴符盒
+item.piano.name=钢琴
+item.piano.description=右击音符盒设置为钢琴音色

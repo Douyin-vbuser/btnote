@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":[
+    " ZZ",
+    " XZ",
+    " X "
+  ],
+
+  "key":{
+    "Z":{
+      "item":"minecraft:obsidian"
+    },
+
+    "X": {
+      "item":"minecraft:noteblock"
+    }
+  },
+
+  "result":{
+    "item": "btnote:note_tools",
+    "count":1
+  }
+}
