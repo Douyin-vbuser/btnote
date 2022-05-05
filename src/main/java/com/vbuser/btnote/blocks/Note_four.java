@@ -73,12 +73,13 @@ public class Note_four extends BlockBase{
 
     @Override
     public int getMetaFromState(IBlockState state){
-        return state.getValue(LOCKED) ? 1 : 0;
+        int pitch = state.getValue(PITCH);
+        return ((pitch > 2) ? (pitch -3) : (pitch +2)) + (state.getValue(LOCKED) ? 0 : 6);
     }
 
     @Override
     public IBlockState getStateFromMeta(int meta) {
-        return this.getDefaultState().withProperty(LOCKED, meta == 1);
+        return this.getDefaultState().withProperty(PITCH,(meta%6<3)?((meta+3)%6):((meta-2)%6)).withProperty(LOCKED,meta>5);
     }
 
     @Override

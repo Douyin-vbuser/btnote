@@ -73,7 +73,6 @@ public class Note_five extends BlockBase{
 
     }
 
-
     @Override
     protected BlockStateContainer createBlockState(){
         return new BlockStateContainer(this,LOCKED,PITCH);
@@ -81,12 +80,13 @@ public class Note_five extends BlockBase{
 
     @Override
     public int getMetaFromState(IBlockState state){
-        return state.getValue(LOCKED) ? 1 : 0;
+        int pitch = state.getValue(PITCH);
+        return ((pitch > 2) ? (pitch -3) : (pitch +2)) + (state.getValue(LOCKED) ? 0 : 6);
     }
 
     @Override
     public IBlockState getStateFromMeta(int meta) {
-        return this.getDefaultState().withProperty(LOCKED, meta == 1);
+        return this.getDefaultState().withProperty(PITCH,(meta%6<3)?((meta+3)%6):((meta-2)%6)).withProperty(LOCKED,meta>5);
     }
 
     @Override
@@ -136,9 +136,6 @@ public class Note_five extends BlockBase{
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_5,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
             }
-        }
-        else{
-            worldIn.setBlockState(pos,state.withProperty(LOCKED,true));
         }
     }
 }
