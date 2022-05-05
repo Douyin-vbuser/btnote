@@ -4,6 +4,14 @@
 
 Changelog:
 =================================
+release 2.4.71(beta)
+=================================
+fix: correct the profiles of electric piano
+     fixed the bug mentioned in release 2.3.95
+fix: 修正了电钢琴的声音文件
+     修复了PropertyInteger PITCH在重载后丢失的bug
+
+=================================
 release 2.3.95
 =================================
 
