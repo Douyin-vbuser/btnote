@@ -4,17 +4,20 @@
 
 Changelog:
 =================================
-release 2.4.71(beta)
+release 2.4.92
+Nothing important
+
+没啥可说的，中考前最后一更了
+主要就是加了个古典吉他的音色
 =================================
+release 2.4.71(beta)
 fix: correct the profiles of electric piano
      fixed the bug mentioned in release 2.3.95
+     
 fix: 修正了电钢琴的声音文件
      修复了PropertyInteger PITCH在重载后丢失的bug
-
 =================================
-release 2.3.95
-=================================
-
+release 2.3.94
 Add: make the module logically complete and playable in the survival and creation modes
      The timbre of piano and electric piano is added
 Bug: the data of propertyinteger pitch will be lost after reentering the world (back to defaultset)
@@ -22,4 +25,3 @@ Bug: the data of propertyinteger pitch will be lost after reentering the world (
 add：使模组在生存和创造模式下都逻辑完整且具有可玩性
      加入了钢琴，电钢琴的音色
 bug：PropertyInteger PITCH的数据在重新进入世界后会丢失（回到Defaultset）
-价格：截止这个版本，没有在网易版收费的倾向
