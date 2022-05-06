@@ -148,6 +148,76 @@ public class SoundsHandler{
 
     public static SoundEvent BLOCK_NOTE_SEVEN_ELECTRIC_5;
 
+    public static SoundEvent BLOCK_NOTE_FIVE_GUITAR_3;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_GUITAR_3;
+
+    public static SoundEvent BLOCK_NOTE_THREE_GUITAR_3;
+
+    public static SoundEvent BLOCK_NOTE_TWO_GUITAR_3;
+
+    public static SoundEvent BLOCK_NOTE_ONE_GUITAR_3;
+
+    public static SoundEvent BLOCK_NOTE_SIX_GUITAR_3;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_GUITAR_3;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_GUITAR_1;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_GUITAR_1;
+
+    public static SoundEvent BLOCK_NOTE_THREE_GUITAR_1;
+
+    public static SoundEvent BLOCK_NOTE_TWO_GUITAR_1;
+
+    public static SoundEvent BLOCK_NOTE_ONE_GUITAR_1;
+
+    public static SoundEvent BLOCK_NOTE_SIX_GUITAR_1;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_GUITAR_1;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_GUITAR_2;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_GUITAR_2;
+
+    public static SoundEvent BLOCK_NOTE_THREE_GUITAR_2;
+
+    public static SoundEvent BLOCK_NOTE_TWO_GUITAR_2;
+
+    public static SoundEvent BLOCK_NOTE_ONE_GUITAR_2;
+
+    public static SoundEvent BLOCK_NOTE_SIX_GUITAR_2;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_GUITAR_2;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_GUITAR_4;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_GUITAR_4;
+
+    public static SoundEvent BLOCK_NOTE_THREE_GUITAR_4;
+
+    public static SoundEvent BLOCK_NOTE_TWO_GUITAR_4;
+
+    public static SoundEvent BLOCK_NOTE_ONE_GUITAR_4;
+
+    public static SoundEvent BLOCK_NOTE_SIX_GUITAR_4;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_GUITAR_4;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_GUITAR_5;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_GUITAR_5;
+
+    public static SoundEvent BLOCK_NOTE_THREE_GUITAR_5;
+
+    public static SoundEvent BLOCK_NOTE_TWO_GUITAR_5;
+
+    public static SoundEvent BLOCK_NOTE_ONE_GUITAR_5;
+
+    public static SoundEvent BLOCK_NOTE_SIX_GUITAR_5;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_GUITAR_5;
+
     public static void registerSounds(){
 
         BLOCK_NOTE_FIVE_PIANO_3 = registerSound("block.note_five.piano_3");
@@ -289,6 +359,77 @@ public class SoundsHandler{
         BLOCK_NOTE_SIX_ELECTRIC_5 = registerSound("block.note_six.electric_5");
 
         BLOCK_NOTE_SEVEN_ELECTRIC_5 = registerSound("block.note_seven.electric_5");
+
+        BLOCK_NOTE_FIVE_GUITAR_3 = registerSound("block.note_five.guitar_3");
+
+        BLOCK_NOTE_FOUR_GUITAR_3 = registerSound("block.note_four.guitar_3");
+
+        BLOCK_NOTE_THREE_GUITAR_3 = registerSound("block.note_three.guitar_3");
+
+        BLOCK_NOTE_TWO_GUITAR_3 = registerSound("block.note_two.guitar_3");
+
+        BLOCK_NOTE_ONE_GUITAR_3 = registerSound("block.note_one.guitar_3");
+
+        BLOCK_NOTE_SIX_GUITAR_3 = registerSound("block.note_six.guitar_3");
+
+        BLOCK_NOTE_SEVEN_GUITAR_3 = registerSound("block.note_seven.guitar_3");
+
+        BLOCK_NOTE_FIVE_GUITAR_2 = registerSound("block.note_five.guitar_2");
+
+        BLOCK_NOTE_FOUR_GUITAR_2 = registerSound("block.note_four.guitar_2");
+
+        BLOCK_NOTE_THREE_GUITAR_2 = registerSound("block.note_three.guitar_2");
+
+        BLOCK_NOTE_TWO_GUITAR_2 = registerSound("block.note_two.guitar_2");
+
+        BLOCK_NOTE_ONE_GUITAR_2 = registerSound("block.note_one.guitar_2");
+
+        BLOCK_NOTE_SIX_GUITAR_2 = registerSound("block.note_six.guitar_2");
+
+        BLOCK_NOTE_SEVEN_GUITAR_2 = registerSound("block.note_seven.guitar_2");
+
+        BLOCK_NOTE_FIVE_GUITAR_4 = registerSound("block.note_five.guitar_4");
+
+        BLOCK_NOTE_FOUR_GUITAR_4 = registerSound("block.note_four.guitar_4");
+
+        BLOCK_NOTE_THREE_GUITAR_4 = registerSound("block.note_three.guitar_4");
+
+        BLOCK_NOTE_TWO_GUITAR_4 = registerSound("block.note_two.guitar_4");
+
+        BLOCK_NOTE_ONE_GUITAR_4 = registerSound("block.note_one.guitar_4");
+
+        BLOCK_NOTE_SIX_GUITAR_4 = registerSound("block.note_six.guitar_4");
+
+        BLOCK_NOTE_SEVEN_GUITAR_4 = registerSound("block.note_seven.guitar_4");
+
+        BLOCK_NOTE_FIVE_GUITAR_1 = registerSound("block.note_five.guitar_1");
+
+        BLOCK_NOTE_FOUR_GUITAR_1 = registerSound("block.note_four.guitar_1");
+
+        BLOCK_NOTE_THREE_GUITAR_1 = registerSound("block.note_three.guitar_1");
+
+        BLOCK_NOTE_TWO_GUITAR_1 = registerSound("block.note_two.guitar_1");
+
+        BLOCK_NOTE_ONE_GUITAR_1 = registerSound("block.note_one.guitar_1");
+
+        BLOCK_NOTE_SIX_GUITAR_1 = registerSound("block.note_six.guitar_1");
+
+        BLOCK_NOTE_SEVEN_GUITAR_1 = registerSound("block.note_seven.guitar_1");
+
+        BLOCK_NOTE_FIVE_GUITAR_5 = registerSound("block.note_five.guitar_5");
+
+        BLOCK_NOTE_FOUR_GUITAR_5 = registerSound("block.note_four.guitar_5");
+
+        BLOCK_NOTE_THREE_GUITAR_5 = registerSound("block.note_three.guitar_5");
+
+        BLOCK_NOTE_TWO_GUITAR_5 = registerSound("block.note_two.guitar_5");
+
+        BLOCK_NOTE_ONE_GUITAR_5 = registerSound("block.note_one.guitar_5");
+
+        BLOCK_NOTE_SIX_GUITAR_5 = registerSound("block.note_six.guitar_5");
+
+        BLOCK_NOTE_SEVEN_GUITAR_5 = registerSound("block.note_seven.guitar_5");
+
     }
 
     private static SoundEvent registerSound(String name){

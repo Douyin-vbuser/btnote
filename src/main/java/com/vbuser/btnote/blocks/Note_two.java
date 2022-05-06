@@ -131,8 +131,5 @@ public class Note_two extends BlockBase{
                 }
             }
         }
-        else{
-            worldIn.setBlockState(pos,state.withProperty(LOCKED,true));
-        }
     }
 }

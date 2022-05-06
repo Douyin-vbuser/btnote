@@ -278,5 +278,144 @@
   "block.note_four.electric_5": {
     "subtitle": "note_four.electric_5",
     "sounds": ["btnote:block/note_four/electric_5"]
-  }
+  },
+   "block.note_five.guitar_3": {
+    "subtitle": "note_five.guitar_3",
+    "sounds": [ "btnote:block/note_five/guitar_3" ]
+  },
+  "block.note_three.guitar_3": {
+    "subtitle": "note_two.guitar_3",
+    "sounds": ["btnote:block/note_three/guitar_3"]
+  },
+  "block.note_two.guitar_3": {
+    "subtitle": "note_two.guitar_3",
+    "sounds": ["btnote:block/note_two/guitar_3"]
+  },
+  "block.note_one.guitar_3": {
+    "subtitle": "note_one.guitar_3",
+    "sounds": ["btnote:block/note_one/guitar_3"]
+  },
+  "block.note_six.guitar_3": {
+    "subtitle": "note_six.guitar_3",
+    "sounds": ["btnote:block/note_six/guitar_3"]
+  },
+  "block.note_seven.guitar_3": {
+    "subtitle": "note_seven.guitar_3",
+    "sounds": ["btnote:block/note_seven/guitar_3"]
+  },
+  "block.note_four.guitar_3": {
+    "subtitle": "note_four.guitar_3",
+    "sounds": ["btnote:block/note_four/guitar_3"]
+  },
+  "block.note_five.guitar_1": {
+    "subtitle": "note_five.guitar_1",
+    "sounds": [ "btnote:block/note_five/guitar_1" ]
+  },
+  "block.note_three.guitar_1": {
+    "subtitle": "note_two.guitar_1",
+    "sounds": ["btnote:block/note_three/guitar_1"]
+  },
+  "block.note_two.guitar_1": {
+    "subtitle": "note_two.guitar_1",
+    "sounds": ["btnote:block/note_two/guitar_1"]
+  },
+  "block.note_one.guitar_1": {
+    "subtitle": "note_one.guitar_1",
+    "sounds": ["btnote:block/note_one/guitar_1"]
+  },
+  "block.note_six.guitar_1": {
+    "subtitle": "note_six.guitar_1",
+    "sounds": ["btnote:block/note_six/guitar_1"]
+  },
+  "block.note_seven.guitar_1": {
+    "subtitle": "note_seven.guitar_1",
+    "sounds": ["btnote:block/note_seven/guitar_1"]
+  },
+  "block.note_four.guitar_1": {
+    "subtitle": "note_four.guitar_1",
+    "sounds": ["btnote:block/note_four/guitar_1"]
+  },
+  "block.note_five.guitar_2": {
+    "subtitle": "note_five.guitar_2",
+    "sounds": [ "btnote:block/note_five/guitar_2" ]
+  },
+  "block.note_three.guitar_2": {
+    "subtitle": "note_two.guitar_2",
+    "sounds": ["btnote:block/note_three/guitar_2"]
+  },
+  "block.note_two.guitar_2": {
+    "subtitle": "note_two.guitar_2",
+    "sounds": ["btnote:block/note_two/guitar_2"]
+  },
+  "block.note_one.guitar_2": {
+    "subtitle": "note_one.guitar_2",
+    "sounds": ["btnote:block/note_one/guitar_2"]
+  },
+  "block.note_six.guitar_2": {
+    "subtitle": "note_six.guitar_2",
+    "sounds": ["btnote:block/note_six/guitar_2"]
+  },
+  "block.note_seven.guitar_2": {
+    "subtitle": "note_seven.guitar_2",
+    "sounds": ["btnote:block/note_seven/guitar_2"]
+  },
+  "block.note_four.guitar_2": {
+    "subtitle": "note_four.guitar_2",
+    "sounds": ["btnote:block/note_four/guitar_2"]
+  },
+  "block.note_five.guitar_4": {
+    "subtitle": "note_five.guitar_4",
+    "sounds": [ "btnote:block/note_five/guitar_4" ]
+  },
+  "block.note_three.guitar_4": {
+    "subtitle": "note_two.guitar_4",
+    "sounds": ["btnote:block/note_three/guitar_4"]
+  },
+  "block.note_two.guitar_4": {
+    "subtitle": "note_two.guitar_4",
+    "sounds": ["btnote:block/note_two/guitar_4"]
+  },
+  "block.note_one.guitar_4": {
+    "subtitle": "note_one.guitar_4",
+    "sounds": ["btnote:block/note_one/guitar_4"]
+  },
+  "block.note_six.guitar_4": {
+    "subtitle": "note_six.guitar_4",
+    "sounds": ["btnote:block/note_six/guitar_4"]
+  },
+  "block.note_seven.guitar_4": {
+    "subtitle": "note_seven.guitar_4",
+    "sounds": ["btnote:block/note_seven/guitar_4"]
+  },
+  "block.note_four.guitar_4": {
+    "subtitle": "note_four.guitar_4",
+    "sounds": ["btnote:block/note_four/guitar_4"]
+  },
+  "block.note_five.guitar_5": {
+    "subtitle": "note_five.guitar_5",
+    "sounds": [ "btnote:block/note_five/guitar_5" ]
+  },
+  "block.note_three.guitar_5": {
+    "subtitle": "note_two.guitar_5",
+    "sounds": ["btnote:block/note_three/guitar_5"]
+  },
+  "block.note_two.guitar_5": {
+    "subtitle": "note_two.guitar_5",
+    "sounds": ["btnote:block/note_two/guitar_5"]
+  },
+  "block.note_one.guitar_5": {
+    "subtitle": "note_one.guitar_5",
+    "sounds": ["btnote:block/note_one/guitar_5"]
+  },
+  "block.note_six.guitar_5": {
+    "subtitle": "note_six.guitar_5",
+    "sounds": ["btnote:block/note_six/guitar_5"]
+  },
+  "block.note_seven.guitar_5": {
+    "subtitle": "note_seven.guitar_5",
+    "sounds": ["btnote:block/note_seven/guitar_5"]
+  },
+  "block.note_four.guitar_5": {
+    "subtitle": "note_four.guitar_5",
+    "sounds": ["btnote:block/note_four/guitar_5"]
 }
