@@ -102,6 +102,12 @@ public class Note_five extends BlockBase{
                 if (block == Blocks.GLOWSTONE){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_3,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
+                if (block == Blocks.WOOL){
+                    worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_3,SoundCategory.BLOCKS,3.0F,1.0F);
+                }
+                if (block == Blocks.PLANKS){
+                    worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_3,SoundCategory.BLOCKS,3.0F,1.0F);
+                }
             }
             if (state.getValue(PITCH) == 2) {
                 if (block == Blocks.DIRT) {
@@ -109,6 +115,12 @@ public class Note_five extends BlockBase{
                 }
                 if (block == Blocks.GLOWSTONE){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_2,SoundCategory.BLOCKS,3.0F,1.0F);
+                }
+                if (block == Blocks.OBSIDIAN){
+                    worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_2,SoundCategory.BLOCKS,3.0F,1.0F);
+                }
+                if (block == Blocks.PLANKS){
+                    worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_2,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
             }
 
@@ -119,6 +131,12 @@ public class Note_five extends BlockBase{
                 if (block == Blocks.GLOWSTONE){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_1,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
+                if (block == Blocks.OBSIDIAN){
+                    worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_1,SoundCategory.BLOCKS,3.0F,1.0F);
+                }
+                if (block == Blocks.PLANKS){
+                    worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_1,SoundCategory.BLOCKS,3.0F,1.0F);
+                }
             }
             if (state.getValue(PITCH) == 4) {
                 if (block == Blocks.DIRT) {
@@ -127,6 +145,12 @@ public class Note_five extends BlockBase{
                 if (block == Blocks.GLOWSTONE){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_4,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
+                if (block == Blocks.OBSIDIAN){
+                    worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_4,SoundCategory.BLOCKS,3.0F,1.0F);
+                }
+                if (block == Blocks.PLANKS){
+                    worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_4,SoundCategory.BLOCKS,3.0F,1.0F);
+                }
             }
             if (state.getValue(PITCH) == 5) {
                 if (block == Blocks.DIRT) {
@@ -134,6 +158,12 @@ public class Note_five extends BlockBase{
                 }
                 if (block == Blocks.GLOWSTONE){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_5,SoundCategory.BLOCKS,3.0F,1.0F);
+                }
+                if (block == Blocks.OBSIDIAN){
+                    worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_5,SoundCategory.BLOCKS,3.0F,1.0F);
+                }
+                if (block == Blocks.PLANKS){
+                    worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_5,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
             }
         }
