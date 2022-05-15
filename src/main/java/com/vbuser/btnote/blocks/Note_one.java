@@ -1,6 +1,7 @@
 package com.vbuser.btnote.blocks;
 
 import com.vbuser.btnote.Main;
+import com.vbuser.btnote.init.ModBlocks;
 import com.vbuser.btnote.init.ModItems;
 import com.vbuser.btnote.util.handlers.SoundsHandler;
 import net.minecraft.block.Block;
@@ -13,6 +14,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
@@ -61,6 +63,13 @@ public class Note_one extends BlockBase{
             else {
                 worldIn.setBlockState(pos, state.withProperty(LOCKED, true));
                 setHardness(-1f);
+            }
+        }
+        if(playerIn.getHeldItemMainhand().getItem() == Item.getItemFromBlock(Blocks.DIRT)){
+            if (state.getValue(LOCKED)) {
+                playerIn.sendMessage(new net.minecraft.util.text.TextComponentString("The block is locked"));
+            } else {
+                worldIn.setBlockState(pos, ModBlocks.PIANO_ONE.getBlockState().getBaseState().withProperty(PITCH,state.getValue(PITCH)).withProperty(LOCKED,false), 2);
             }
         }
     return true;

@@ -28,4 +28,5 @@ public class ModBlocks {
 
     public static final Block NOTE_SEVEN = new Note_seven("note_seven",Material.WOOD,Main.btnotetab);
 
+    public static final Block PIANO_ONE = new Piano_one("piano_one",Material.WOOD,Main.btnotetab);
 }

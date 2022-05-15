@@ -9,4 +9,5 @@ tile.note_four.name=Noteblock of 4
 tile.note_five.name=Noteblock of 5
 tile.note_six.name=Noteblock of 6
 tile.note_seven.name=Noteblock of 7
+tile.piano_one.name=PianoBlock of 1
 itemGroup.btnotetab = Tab of Btnote
