@@ -16,6 +16,12 @@ public class ModRecipes {
         GameRegistry.addSmelting(ModBlocks.NOTE_SEVEN ,new ItemStack(Blocks.NOTEBLOCK),10f);
         GameRegistry.addSmelting(ModBlocks.NOTE_X ,new ItemStack(Blocks.NOTEBLOCK),10f);
         GameRegistry.addSmelting(ModBlocks.PIANO_ONE,new ItemStack(Blocks.NOTEBLOCK),10f);
+        GameRegistry.addSmelting(ModBlocks.PIANO_TWO,new ItemStack(Blocks.NOTEBLOCK),10f);
+        GameRegistry.addSmelting(ModBlocks.PIANO_THREE,new ItemStack(Blocks.NOTEBLOCK),10f);
+        GameRegistry.addSmelting(ModBlocks.PIANO_FOUR,new ItemStack(Blocks.NOTEBLOCK),10f);
+        GameRegistry.addSmelting(ModBlocks.PIANO_FIVE,new ItemStack(Blocks.NOTEBLOCK),10f);
+        GameRegistry.addSmelting(ModBlocks.PIANO_SIX,new ItemStack(Blocks.NOTEBLOCK),10f);
+        GameRegistry.addSmelting(ModBlocks.PIANO_SEVEN,new ItemStack(Blocks.NOTEBLOCK),10f);
     }
 
 }

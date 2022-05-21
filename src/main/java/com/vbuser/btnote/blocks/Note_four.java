@@ -1,6 +1,7 @@
 package com.vbuser.btnote.blocks;
 
 import com.vbuser.btnote.Main;
+import com.vbuser.btnote.init.ModBlocks;
 import com.vbuser.btnote.init.ModItems;
 import com.vbuser.btnote.util.handlers.SoundsHandler;
 import net.minecraft.block.Block;
@@ -13,6 +14,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
@@ -63,6 +65,13 @@ public class Note_four extends BlockBase{
                 setHardness(-1f);
             }
         }
+        if(playerIn.getHeldItemMainhand().getItem() == Item.getItemFromBlock(Blocks.DIRT)){
+            if (state.getValue(LOCKED)) {
+                playerIn.sendMessage(new net.minecraft.util.text.TextComponentString("The block is locked"));
+            } else {
+                worldIn.setBlockState(pos, ModBlocks.PIANO_FOUR.getBlockState().getBaseState().withProperty(Piano_four.PITCH,(state.getValue(PITCH)+1)).withProperty(LOCKED,false), 2);
+            }
+        }
     return true;
     }
 
@@ -95,7 +104,7 @@ public class Note_four extends BlockBase{
                 if (block == Blocks.GLOWSTONE){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FOUR_ELECTRIC_3,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
-                if (block == Blocks.WOOL){
+                if (block == Blocks.OBSIDIAN){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FOUR_STRINGS_3,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
                 if (block == Blocks.PLANKS){
@@ -110,7 +119,7 @@ public class Note_four extends BlockBase{
                 if (block == Blocks.GLOWSTONE){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FOUR_ELECTRIC_2,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
-                if (block == Blocks.WOOL){
+                if (block == Blocks.OBSIDIAN){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FOUR_STRINGS_2,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
                 if (block == Blocks.PLANKS){
@@ -125,7 +134,7 @@ public class Note_four extends BlockBase{
                 if (block == Blocks.GLOWSTONE){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FOUR_ELECTRIC_1,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
-                if (block == Blocks.WOOL){
+                if (block == Blocks.OBSIDIAN){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FOUR_STRINGS_1,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
                 if (block == Blocks.PLANKS){
@@ -139,7 +148,7 @@ public class Note_four extends BlockBase{
                 if (block == Blocks.GLOWSTONE){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FOUR_ELECTRIC_4,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
-                if (block == Blocks.WOOL){
+                if (block == Blocks.OBSIDIAN){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FOUR_STRINGS_4,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
                 if (block == Blocks.PLANKS){
@@ -153,7 +162,7 @@ public class Note_four extends BlockBase{
                 if (block == Blocks.GLOWSTONE){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FOUR_ELECTRIC_5,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
-                if (block == Blocks.WOOL){
+                if (block == Blocks.OBSIDIAN){
                     worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FOUR_STRINGS_5,SoundCategory.BLOCKS,3.0F,1.0F);
                 }
                 if (block == Blocks.PLANKS){

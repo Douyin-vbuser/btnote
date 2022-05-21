@@ -1,6 +1,7 @@
 这是作者的第一个Minecraft forge模组，比较粗糙，望见谅。
-这个模组的目的是做出比原版音符盒更好的阴符盒，也就是模组名b(e)t(ter)note的由来
-这个系列将由作者一人完成大部分内容，会用于今年暑期将要发布的开发讲解视频，可能会由@MC资讯网工作室发布至网易
+这个模组的目的是做出比原版音符盒更好的阴符盒，也就是模组名b(e)t(ter)note的由来。
+这个系列将由作者一人完成大部分内容，会用于今年暑期将要发布的开发讲解视频，可能会由@MC资讯网工作室发布至网易。
+这个模组说实话没啥难度，就开源了。
 
 Changelog:
 =================================
@@ -8,11 +9,13 @@ release 3.0.2
 上了几天网课，再写一个版本
 Add:the timbre of strings
     a block specially for the timbre of piano
-Bug:some sounds can't be played properly when noteblock is powered,but can be played by commandline or command block.
+Bug:some sounds can't be played properly when noteblock is powered,but can be played by commandline or command block.(already been fixed in beta version)
+    some block property can't be load properly(already fixed)
 
 Add:加入了弦乐器组的音色
-    加入了一个单独的钢琴方块，使用了不同于模组原来的音色（未完成，beta中单独commit，不再说明）
-Bug:一些声音不能在音符盒上正常播放，但是可以通过指令或命令方块来播放
+    加入了一个单独的钢琴方块，使用了不同于模组原来的音色（beta中单独commit）
+Bug:一些声音不能在音符盒上正常播放，但是可以通过指令或命令方块来播放（已在beta版本中修复）
+    一些钢琴方块的属性不被正确读取（已在beta版本中修复）
 =================================
 release 2.4.92
 Nothing important

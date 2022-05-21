@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "locked=true,pitch=1": {
+      "model": "btnote:piano_three_locked_lll"
+    },
+    "locked=true,pitch=2": {
+      "model": "btnote:piano_three_locked_ll"
+    },
+    "locked=true,pitch=3": {
+      "model": "btnote:piano_three_locked_l"
+    },
+    "locked=true,pitch=4": {
+      "model": "btnote:piano_three_locked"
+    },
+    "locked=true,pitch=5": {
+      "model": "btnote:piano_three_locked_h"
+    },
+    "locked=true,pitch=6":{
+      "model":"btnote:piano_three_locked_hh"
+    },
+    "locked=true,pitch=7": {
+      "model":"btnote:piano_three_locked_hhh"
+    },
+    "locked=false,pitch=1": {
+      "model": "btnote:piano_three_lll"
+    },
+    "locked=false,pitch=2": {
+      "model": "btnote:piano_three_ll"
+    },
+    "locked=false,pitch=3": {
+      "model": "btnote:piano_three_l"
+    },
+    "locked=false,pitch=4": {
+      "model": "btnote:piano_three"
+    },
+    "locked=false,pitch=5": {
+      "model": "btnote:piano_three_h"
+    },
+    "locked=false,pitch=6":{
+      "model":"btnote:piano_three_hh"
+    },
+    "locked=false,pitch=7": {
+      "model": "btnote:piano_three_hhh"
+    }
+  }
+}

@@ -29,4 +29,16 @@ public class ModBlocks {
     public static final Block NOTE_SEVEN = new Note_seven("note_seven",Material.WOOD,Main.btnotetab);
 
     public static final Block PIANO_ONE = new Piano_one("piano_one",Material.WOOD,Main.btnotetab);
+
+    public static final Block PIANO_TWO = new Piano_two("piano_two",Material.WOOD,Main.btnotetab);
+
+    public static final Block PIANO_THREE = new Piano_three("piano_three",Material.WOOD,Main.btnotetab);
+
+    public static final Block PIANO_FOUR = new Piano_four("piano_four",Material.WOOD,Main.btnotetab);
+
+    public static final Block PIANO_FIVE = new Piano_five("piano_five",Material.WOOD,Main.btnotetab);
+
+    public static final Block PIANO_SIX = new Piano_six("piano_six",Material.WOOD,Main.btnotetab);
+
+    public static final Block PIANO_SEVEN = new Piano_seven("piano_seven",Material.WOOD,Main.btnotetab);
 }

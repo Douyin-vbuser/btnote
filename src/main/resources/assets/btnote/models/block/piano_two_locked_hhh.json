@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "btnote:blocks/piano_two_locked_hhh"
+  }
+}

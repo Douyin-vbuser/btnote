@@ -3,6 +3,8 @@ package com.vbuser.btnote.blocks;
 import com.vbuser.btnote.Main;
 import com.vbuser.btnote.init.ModBlocks;
 import com.vbuser.btnote.init.ModItems;
+import com.vbuser.btnote.util.handlers.SoundsHandler;
+import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyBool;
@@ -15,9 +17,11 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
+@SuppressWarnings("ALL")
 public class Piano_one extends BlockBase {
 
     public static final PropertyInteger PITCH = PropertyInteger.create("pitch", 1, 7);
@@ -43,7 +47,7 @@ public class Piano_one extends BlockBase {
     @Override
     public int getMetaFromState(IBlockState state) {
         int pitch = state.getValue(PITCH);
-        return ((pitch > 3) ? (pitch - 4) : (pitch + 3)) + (state.getValue(LOCKED) ? 0 : 8);
+        return ((pitch > 3) ? (pitch - 4) : (pitch + 3)) + (state.getValue(LOCKED) ? 8 : 0);
     }
 
     @Override
@@ -80,11 +84,37 @@ public class Piano_one extends BlockBase {
             if (state.getValue(LOCKED)) {
                 playerIn.sendMessage(new net.minecraft.util.text.TextComponentString("The block is locked"));
             } else {
-                //worldIn.setBlockState(pos, ModBlocks.NOTE_ONE.getDefaultState(), 2);
                 int pitch = (state.getValue(PITCH)<2)?1:(state.getValue(PITCH)>6)?5:(state.getValue(PITCH)-1);
                 worldIn.setBlockState(pos, ModBlocks.NOTE_ONE.getBlockState().getBaseState().withProperty(Note_one.PITCH, pitch).withProperty(LOCKED,false), 2);
             }
         }
         return true;
+    }
+    @Override
+    public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos) {
+        boolean flag = worldIn.isBlockPowered(pos);
+        if(flag){
+            if(state.getValue(PITCH) == 1){
+                worldIn.playSound(null,pos, SoundsHandler.BLOCK_PIANO_ONE_1, SoundCategory.BLOCKS, 3.0F, 1.0F);
+            }
+            if(state.getValue(PITCH) == 2){
+                worldIn.playSound(null,pos,SoundsHandler.BLOCK_PIANO_ONE_2,SoundCategory.BLOCKS,3.0F,1.0F);
+            }
+            if(state.getValue(PITCH) == 3){
+                worldIn.playSound(null,pos,SoundsHandler.BLOCK_PIANO_ONE_3,SoundCategory.BLOCKS,3.0F,1.0F);
+            }
+            if(state.getValue(PITCH) == 4){
+                worldIn.playSound(null,pos,SoundsHandler.BLOCK_PIANO_ONE_4,SoundCategory.BLOCKS,3.0F,1.0F);
+            }
+            if(state.getValue(PITCH) == 5){
+                worldIn.playSound(null,pos,SoundsHandler.BLOCK_PIANO_ONE_5,SoundCategory.BLOCKS,3.0F,1.0F);
+            }
+            if(state.getValue(PITCH) == 6){
+                worldIn.playSound(null,pos,SoundsHandler.BLOCK_PIANO_ONE_6,SoundCategory.BLOCKS,3.0F,1.0F);
+            }
+            if(state.getValue(PITCH) == 7){
+                worldIn.playSound(null,pos,SoundsHandler.BLOCK_PIANO_ONE_7,SoundCategory.BLOCKS,3.0F,1.0F);
+            }
+        }
     }
 }

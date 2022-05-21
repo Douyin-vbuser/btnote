@@ -288,6 +288,104 @@ public class SoundsHandler{
 
     public static SoundEvent BLOCK_NOTE_SEVEN_STRINGS_5;
 
+    public static SoundEvent BLOCK_PIANO_ONE_1;
+
+    public static SoundEvent BLOCK_PIANO_SIX_1;
+
+    public static SoundEvent BLOCK_PIANO_SEVEN_1;
+
+    public static SoundEvent BLOCK_PIANO_FIVE_2;
+
+    public static SoundEvent BLOCK_PIANO_FOUR_2;
+
+    public static SoundEvent BLOCK_PIANO_THREE_2;
+
+    public static SoundEvent BLOCK_PIANO_TWO_2;
+
+    public static SoundEvent BLOCK_PIANO_ONE_2;
+
+    public static SoundEvent BLOCK_PIANO_SIX_2;
+
+    public static SoundEvent BLOCK_PIANO_SEVEN_2;
+
+    public static SoundEvent BLOCK_PIANO_FIVE_4;
+
+    public static SoundEvent BLOCK_PIANO_FOUR_4;
+
+    public static SoundEvent BLOCK_PIANO_THREE_4;
+
+    public static SoundEvent BLOCK_PIANO_TWO_4;
+
+    public static SoundEvent BLOCK_PIANO_ONE_4;
+
+    public static SoundEvent BLOCK_PIANO_SIX_4;
+
+    public static SoundEvent BLOCK_PIANO_SEVEN_4;
+
+    public static SoundEvent BLOCK_PIANO_FIVE_5;
+
+    public static SoundEvent BLOCK_PIANO_FOUR_5;
+
+    public static SoundEvent BLOCK_PIANO_THREE_5;
+
+    public static SoundEvent BLOCK_PIANO_TWO_5;
+
+    public static SoundEvent BLOCK_PIANO_ONE_5;
+
+    public static SoundEvent BLOCK_PIANO_SIX_5;
+
+    public static SoundEvent BLOCK_PIANO_SEVEN_5;
+
+    public static SoundEvent BLOCK_PIANO_FIVE_6;
+
+    public static SoundEvent BLOCK_PIANO_FOUR_6;
+
+    public static SoundEvent BLOCK_PIANO_THREE_6;
+
+    public static SoundEvent BLOCK_PIANO_TWO_6;
+
+    public static SoundEvent BLOCK_PIANO_ONE_6;
+
+    public static SoundEvent BLOCK_PIANO_SIX_6;
+
+    public static SoundEvent BLOCK_PIANO_SEVEN_6;
+
+    public static SoundEvent BLOCK_PIANO_FIVE_7;
+
+    public static SoundEvent BLOCK_PIANO_FOUR_7;
+
+    public static SoundEvent BLOCK_PIANO_THREE_7;
+
+    public static SoundEvent BLOCK_PIANO_TWO_7;
+
+    public static SoundEvent BLOCK_PIANO_ONE_7;
+
+    public static SoundEvent BLOCK_PIANO_SIX_7;
+
+    public static SoundEvent BLOCK_PIANO_SEVEN_7;
+
+    public static SoundEvent BLOCK_PIANO_FIVE_3;
+
+    public static SoundEvent BLOCK_PIANO_FOUR_3;
+
+    public static SoundEvent BLOCK_PIANO_THREE_3;
+
+    public static SoundEvent BLOCK_PIANO_TWO_3;
+
+    public static SoundEvent BLOCK_PIANO_ONE_3;
+
+    public static SoundEvent BLOCK_PIANO_SIX_3;
+
+    public static SoundEvent BLOCK_PIANO_FIVE_1;
+
+    public static SoundEvent BLOCK_PIANO_SEVEN_3;
+
+    public static SoundEvent BLOCK_PIANO_FOUR_1;
+
+    public static SoundEvent BLOCK_PIANO_THREE_1;
+
+    public static SoundEvent BLOCK_PIANO_TWO_1;
+
 
     public static void registerSounds(){
 
@@ -570,6 +668,104 @@ public class SoundsHandler{
         BLOCK_NOTE_SIX_STRINGS_5 = registerSound("block.note_six.strings_5");
 
         BLOCK_NOTE_SEVEN_STRINGS_5 = registerSound("block.note_seven.strings_5");
+
+        BLOCK_PIANO_FIVE_3 = registerSound("block.piano_five.3");
+
+        BLOCK_PIANO_FOUR_3 = registerSound("block.piano_four.3");
+
+        BLOCK_PIANO_THREE_3 = registerSound("block.piano_three.3");
+
+        BLOCK_PIANO_TWO_3 = registerSound("block.piano_two.3");
+
+        BLOCK_PIANO_ONE_3 = registerSound("block.piano_one.3");
+
+        BLOCK_PIANO_SIX_3 = registerSound("block.piano_six.3");
+
+        BLOCK_PIANO_SEVEN_3 = registerSound("block.piano_seven.3");
+
+        BLOCK_PIANO_FIVE_2 = registerSound("block.piano_five.2");
+
+        BLOCK_PIANO_FOUR_2 = registerSound("block.piano_four.2");
+
+        BLOCK_PIANO_THREE_2 = registerSound("block.piano_three.2");
+
+        BLOCK_PIANO_TWO_2 = registerSound("block.piano_two.2");
+
+        BLOCK_PIANO_ONE_2 = registerSound("block.piano_one.2");
+
+        BLOCK_PIANO_SIX_2 = registerSound("block.piano_six.2");
+
+        BLOCK_PIANO_SEVEN_2 = registerSound("block.piano_seven.2");
+
+        BLOCK_PIANO_FIVE_4 = registerSound("block.piano_five.4");
+
+        BLOCK_PIANO_FOUR_4 = registerSound("block.piano_four.4");
+
+        BLOCK_PIANO_THREE_4 = registerSound("block.piano_three.4");
+
+        BLOCK_PIANO_TWO_4 = registerSound("block.piano_two.4");
+
+        BLOCK_PIANO_ONE_4 = registerSound("block.piano_one.4");
+
+        BLOCK_PIANO_SIX_4 = registerSound("block.piano_six.4");
+
+        BLOCK_PIANO_SEVEN_4 = registerSound("block.piano_seven.4");
+
+        BLOCK_PIANO_FIVE_1 = registerSound("block.piano_five.1");
+
+        BLOCK_PIANO_FOUR_1 = registerSound("block.piano_four.1");
+
+        BLOCK_PIANO_THREE_1 = registerSound("block.piano_three.1");
+
+        BLOCK_PIANO_TWO_1 = registerSound("block.piano_two.1");
+
+        BLOCK_PIANO_ONE_1 = registerSound("block.piano_one.1");
+
+        BLOCK_PIANO_SIX_1 = registerSound("block.piano_six.1");
+
+        BLOCK_PIANO_SEVEN_1 = registerSound("block.piano_seven.1");
+
+        BLOCK_PIANO_FIVE_5 = registerSound("block.piano_five.5");
+
+        BLOCK_PIANO_FOUR_5 = registerSound("block.piano_four.5");
+
+        BLOCK_PIANO_THREE_5 = registerSound("block.piano_three.5");
+
+        BLOCK_PIANO_TWO_5 = registerSound("block.piano_two.5");
+
+        BLOCK_PIANO_ONE_5 = registerSound("block.piano_one.5");
+
+        BLOCK_PIANO_SIX_5 = registerSound("block.piano_six.5");
+
+        BLOCK_PIANO_SEVEN_5 = registerSound("block.piano_seven.5");
+
+        BLOCK_PIANO_FIVE_6 = registerSound("block.piano_five.6");
+
+        BLOCK_PIANO_FOUR_6 = registerSound("block.piano_four.6");
+
+        BLOCK_PIANO_THREE_6 = registerSound("block.piano_three.6");
+
+        BLOCK_PIANO_TWO_6 = registerSound("block.piano_two.6");
+
+        BLOCK_PIANO_ONE_6 = registerSound("block.piano_one.6");
+
+        BLOCK_PIANO_SIX_6 = registerSound("block.piano_six.6");
+
+        BLOCK_PIANO_SEVEN_6 = registerSound("block.piano_seven.6");
+
+        BLOCK_PIANO_FIVE_7 = registerSound("block.piano_five.7");
+
+        BLOCK_PIANO_FOUR_7 = registerSound("block.piano_four.7");
+
+        BLOCK_PIANO_THREE_7 = registerSound("block.piano_three.7");
+
+        BLOCK_PIANO_TWO_7 = registerSound("block.piano_two.7");
+
+        BLOCK_PIANO_ONE_7 = registerSound("block.piano_one.7");
+
+        BLOCK_PIANO_SIX_7 = registerSound("block.piano_six.7");
+
+        BLOCK_PIANO_SEVEN_7 = registerSound("block.piano_seven.7");
     }
 
     private static SoundEvent registerSound(String name){

@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "locked=true,pitch=1": {
+      "model": "btnote:piano_two_locked_lll"
+    },
+    "locked=true,pitch=2": {
+      "model": "btnote:piano_two_locked_ll"
+    },
+    "locked=true,pitch=3": {
+      "model": "btnote:piano_two_locked_l"
+    },
+    "locked=true,pitch=4": {
+      "model": "btnote:piano_two_locked"
+    },
+    "locked=true,pitch=5": {
+      "model": "btnote:piano_two_locked_h"
+    },
+    "locked=true,pitch=6":{
+      "model":"btnote:piano_two_locked_hh"
+    },
+    "locked=true,pitch=7": {
+      "model":"btnote:piano_two_locked_hhh"
+    },
+    "locked=false,pitch=1": {
+      "model": "btnote:piano_two_lll"
+    },
+    "locked=false,pitch=2": {
+      "model": "btnote:piano_two_ll"
+    },
+    "locked=false,pitch=3": {
+      "model": "btnote:piano_two_l"
+    },
+    "locked=false,pitch=4": {
+      "model": "btnote:piano_two"
+    },
+    "locked=false,pitch=5": {
+      "model": "btnote:piano_two_h"
+    },
+    "locked=false,pitch=6":{
+      "model":"btnote:piano_two_hh"
+    },
+    "locked=false,pitch=7": {
+      "model": "btnote:piano_two_hhh"
+    }
+  }
+}

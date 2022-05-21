@@ -558,5 +558,201 @@
   "block.note_four.strings_5": {
     "subtitle": "note_four.strings_5",
     "sounds": ["btnote:block/note_four/strings_5"]
+  },
+  "block.piano_five.3": {
+    "subtitle": "piano_five.3",
+    "sounds": [ "btnote:block/piano_five/3" ]
+  },
+  "block.piano_three.3": {
+    "subtitle": "piano_two.3",
+    "sounds": ["btnote:block/piano_three/3"]
+  },
+  "block.piano_two.3": {
+    "subtitle": "piano_two.3",
+    "sounds": ["btnote:block/piano_two/3"]
+  },
+  "block.piano_one.3": {
+    "subtitle": "piano_one.3",
+    "sounds": ["btnote:block/piano_one/3"]
+  },
+  "block.piano_six.3": {
+    "subtitle": "piano_six.3",
+    "sounds": ["btnote:block/piano_six/3"]
+  },
+  "block.piano_seven.3": {
+    "subtitle": "piano_seven.3",
+    "sounds": ["btnote:block/piano_seven/3"]
+  },
+  "block.piano_four.3": {
+    "subtitle": "piano_four.3",
+    "sounds": ["btnote:block/piano_four/3"]
+  },
+  "block.piano_five.1": {
+    "subtitle": "piano_five.1",
+    "sounds": [ "btnote:block/piano_five/1" ]
+  },
+  "block.piano_three.1": {
+    "subtitle": "piano_two.1",
+    "sounds": ["btnote:block/piano_three/1"]
+  },
+  "block.piano_two.1": {
+    "subtitle": "piano_two.1",
+    "sounds": ["btnote:block/piano_two/1"]
+  },
+  "block.piano_one.1": {
+    "subtitle": "piano_one.1",
+    "sounds": ["btnote:block/piano_one/1"]
+  },
+  "block.piano_six.1": {
+    "subtitle": "piano_six.1",
+    "sounds": ["btnote:block/piano_six/1"]
+  },
+  "block.piano_seven.1": {
+    "subtitle": "piano_seven.1",
+    "sounds": ["btnote:block/piano_seven/1"]
+  },
+  "block.piano_four.1": {
+    "subtitle": "piano_four.1",
+    "sounds": ["btnote:block/piano_four/1"]
+  },
+  "block.piano_five.2": {
+    "subtitle": "piano_five.2",
+    "sounds": [ "btnote:block/piano_five/2" ]
+  },
+  "block.piano_three.2": {
+    "subtitle": "piano_two.2",
+    "sounds": ["btnote:block/piano_three/2"]
+  },
+  "block.piano_two.2": {
+    "subtitle": "piano_two.2",
+    "sounds": ["btnote:block/piano_two/2"]
+  },
+  "block.piano_one.2": {
+    "subtitle": "piano_one.2",
+    "sounds": ["btnote:block/piano_one/2"]
+  },
+  "block.piano_six.2": {
+    "subtitle": "piano_six.2",
+    "sounds": ["btnote:block/piano_six/2"]
+  },
+  "block.piano_seven.2": {
+    "subtitle": "piano_seven.2",
+    "sounds": ["btnote:block/piano_seven/2"]
+  },
+  "block.piano_four.2": {
+    "subtitle": "piano_four.2",
+    "sounds": ["btnote:block/piano_four/2"]
+  },
+  "block.piano_five.4": {
+    "subtitle": "piano_five.4",
+    "sounds": [ "btnote:block/piano_five/4" ]
+  },
+  "block.piano_three.4": {
+    "subtitle": "piano_two.4",
+    "sounds": ["btnote:block/piano_three/4"]
+  },
+  "block.piano_two.4": {
+    "subtitle": "piano_two.4",
+    "sounds": ["btnote:block/piano_two/4"]
+  },
+  "block.piano_one.4": {
+    "subtitle": "piano_one.4",
+    "sounds": ["btnote:block/piano_one/4"]
+  },
+  "block.piano_six.4": {
+    "subtitle": "piano_six.4",
+    "sounds": ["btnote:block/piano_six/4"]
+  },
+  "block.piano_seven.4": {
+    "subtitle": "piano_seven.4",
+    "sounds": ["btnote:block/piano_seven/4"]
+  },
+  "block.piano_four.4": {
+    "subtitle": "piano_four.4",
+    "sounds": ["btnote:block/piano_four/4"]
+  },
+  "block.piano_five.5": {
+    "subtitle": "piano_five.5",
+    "sounds": [ "btnote:block/piano_five/5" ]
+  },
+  "block.piano_three.5": {
+    "subtitle": "piano_two.5",
+    "sounds": ["btnote:block/piano_three/5"]
+  },
+  "block.piano_two.5": {
+    "subtitle": "piano_two.5",
+    "sounds": ["btnote:block/piano_two/5"]
+  },
+  "block.piano_one.5": {
+    "subtitle": "piano_one.5",
+    "sounds": ["btnote:block/piano_one/5"]
+  },
+  "block.piano_six.5": {
+    "subtitle": "piano_six.5",
+    "sounds": ["btnote:block/piano_six/5"]
+  },
+  "block.piano_seven.5": {
+    "subtitle": "piano_seven.5",
+    "sounds": ["btnote:block/piano_seven/5"]
+  },
+  "block.piano_four.5": {
+    "subtitle": "piano_four.5",
+    "sounds": ["btnote:block/piano_four/5"]
+  },
+  "block.piano_five.6": {
+    "subtitle": "piano_five.6",
+    "sounds": [ "btnote:block/piano_five/6" ]
+  },
+  "block.piano_three.6": {
+    "subtitle": "piano_two.6",
+    "sounds": ["btnote:block/piano_three/6"]
+  },
+  "block.piano_two.6": {
+    "subtitle": "piano_two.6",
+    "sounds": ["btnote:block/piano_two/6"]
+  },
+  "block.piano_one.6": {
+    "subtitle": "piano_one.6",
+    "sounds": ["btnote:block/piano_one/6"]
+  },
+  "block.piano_six.6": {
+    "subtitle": "piano_six.6",
+    "sounds": ["btnote:block/piano_six/6"]
+  },
+  "block.piano_seven.6": {
+    "subtitle": "piano_seven.6",
+    "sounds": ["btnote:block/piano_seven/6"]
+  },
+  "block.piano_four.6": {
+    "subtitle": "piano_four.6",
+    "sounds": ["btnote:block/piano_four/6"]
+  },
+  "block.piano_five.7": {
+    "subtitle": "piano_five.7",
+    "sounds": [ "btnote:block/piano_five/7" ]
+  },
+  "block.piano_three.7": {
+    "subtitle": "piano_two.7",
+    "sounds": ["btnote:block/piano_three/7"]
+  },
+  "block.piano_two.7": {
+    "subtitle": "piano_two.7",
+    "sounds": ["btnote:block/piano_two/7"]
+  },
+  "block.piano_one.7": {
+    "subtitle": "piano_one.7",
+    "sounds": ["btnote:block/piano_one/7"]
+  },
+  "block.piano_six.7": {
+    "subtitle": "piano_six.7",
+    "sounds": ["btnote:block/piano_six/7"]
+  },
+  "block.piano_seven.7": {
+    "subtitle": "piano_seven.7",
+    "sounds": ["btnote:block/piano_seven/7"]
+  },
+  "block.piano_four.7": {
+    "subtitle": "piano_four.7",
+    "sounds": ["btnote:block/piano_four/7"]
   }
 }
