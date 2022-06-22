@@ -11,11 +11,13 @@ Add:the timbre of strings
     a block specially for the timbre of piano
 Bug:some sounds can't be played properly when noteblock is powered,but can be played by commandline or command block.(already been fixed in beta version)
     some block property can't be load properly(already fixed)
+    all the blocks can't correctly process the sound events(fixed in note_five)
 
 Add:加入了弦乐器组的音色
     加入了一个单独的钢琴方块，使用了不同于模组原来的音色（beta中单独commit）
 Bug:一些声音不能在音符盒上正常播放，但是可以通过指令或命令方块来播放（已在beta版本中修复）
     一些钢琴方块的属性不被正确读取（已在beta版本中修复）
+    脑瘫作者直接调用neighborchange还不检查过去状态造成错误的方块事件（note_five作为实验对象已经修复,其他方块将陆续修改）
 =================================
 release 2.4.92
 Nothing important

@@ -1,5 +1,6 @@
 package com.vbuser.btnote.util.handlers;
 
+import com.vbuser.btnote.blocks.tileEntity.TileEntityHandler;
 import com.vbuser.btnote.init.ModItems;
 import com.vbuser.btnote.tabs.BtnoteTab;
 import com.vbuser.btnote.util.IHasModel;
@@ -30,6 +31,7 @@ public class RegistryHandler {
     @SubscribeEvent
     public static void onBlockRegister(RegistryEvent.Register<Block> event){
         event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
+        TileEntityHandler.registerTileEntities();
     }
 
     @SubscribeEvent
