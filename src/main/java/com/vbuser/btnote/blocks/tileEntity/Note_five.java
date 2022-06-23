@@ -3,7 +3,6 @@ package com.vbuser.btnote.blocks.tileEntity;
 import com.google.common.collect.Lists;
 import com.vbuser.btnote.Main;
 import com.vbuser.btnote.blocks.BlockBase;
-import com.vbuser.btnote.blocks.Piano_five;
 import com.vbuser.btnote.init.ModBlocks;
 import com.vbuser.btnote.init.ModItems;
 import com.vbuser.btnote.util.handlers.SoundsHandler;

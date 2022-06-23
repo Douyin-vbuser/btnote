@@ -2,7 +2,7 @@ package com.vbuser.btnote.blocks.tileEntity;
 
 import com.vbuser.btnote.Main;
 import com.vbuser.btnote.blocks.BlockBase;
-import com.vbuser.btnote.blocks.Piano_two;
+import com.vbuser.btnote.blocks.tileEntity.Piano_two;
 import com.vbuser.btnote.init.ModBlocks;
 import com.vbuser.btnote.init.ModItems;
 import com.vbuser.btnote.util.handlers.SoundsHandler;
