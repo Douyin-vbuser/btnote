@@ -754,5 +754,145 @@
   "block.piano_four.7": {
     "subtitle": "piano_four.7",
     "sounds": ["btnote:block/piano_four/7"]
+  },
+  "block.note_five.violin_3": {
+    "subtitle": "note_five.violin_3",
+    "sounds": [ "btnote:block/note_five/violin_3" ]
+  },
+  "block.note_three.violin_3": {
+    "subtitle": "note_two.violin_3",
+    "sounds": ["btnote:block/note_three/violin_3"]
+  },
+  "block.note_two.violin_3": {
+    "subtitle": "note_two.violin_3",
+    "sounds": ["btnote:block/note_two/violin_3"]
+  },
+  "block.note_one.violin_3": {
+    "subtitle": "note_one.violin_3",
+    "sounds": ["btnote:block/note_one/violin_3"]
+  },
+  "block.note_six.violin_3": {
+    "subtitle": "note_six.violin_3",
+    "sounds": ["btnote:block/note_six/violin_3"]
+  },
+  "block.note_seven.violin_3": {
+    "subtitle": "note_seven.violin_3",
+    "sounds": ["btnote:block/note_seven/violin_3"]
+  },
+  "block.note_four.violin_3": {
+    "subtitle": "note_four.violin_3",
+    "sounds": ["btnote:block/note_four/violin_3"]
+  },
+  "block.note_five.violin_1": {
+    "subtitle": "note_five.violin_1",
+    "sounds": [ "btnote:block/note_five/violin_1" ]
+  },
+  "block.note_three.violin_1": {
+    "subtitle": "note_two.violin_1",
+    "sounds": ["btnote:block/note_three/violin_1"]
+  },
+  "block.note_two.violin_1": {
+    "subtitle": "note_two.violin_1",
+    "sounds": ["btnote:block/note_two/violin_1"]
+  },
+  "block.note_one.violin_1": {
+    "subtitle": "note_one.violin_1",
+    "sounds": ["btnote:block/note_one/violin_1"]
+  },
+  "block.note_six.violin_1": {
+    "subtitle": "note_six.violin_1",
+    "sounds": ["btnote:block/note_six/violin_1"]
+  },
+  "block.note_seven.violin_1": {
+    "subtitle": "note_seven.violin_1",
+    "sounds": ["btnote:block/note_seven/violin_1"]
+  },
+  "block.note_four.violin_1": {
+    "subtitle": "note_four.violin_1",
+    "sounds": ["btnote:block/note_four/violin_1"]
+  },
+  "block.note_five.violin_2": {
+    "subtitle": "note_five.violin_2",
+    "sounds": [ "btnote:block/note_five/violin_2" ]
+  },
+  "block.note_three.violin_2": {
+    "subtitle": "note_two.violin_2",
+    "sounds": ["btnote:block/note_three/violin_2"]
+  },
+  "block.note_two.violin_2": {
+    "subtitle": "note_two.violin_2",
+    "sounds": ["btnote:block/note_two/violin_2"]
+  },
+  "block.note_one.violin_2": {
+    "subtitle": "note_one.violin_2",
+    "sounds": ["btnote:block/note_one/violin_2"]
+  },
+  "block.note_six.violin_2": {
+    "subtitle": "note_six.violin_2",
+    "sounds": ["btnote:block/note_six/violin_2"]
+  },
+  "block.note_seven.violin_2": {
+    "subtitle": "note_seven.violin_2",
+    "sounds": ["btnote:block/note_seven/violin_2"]
+  },
+  "block.note_four.violin_2": {
+    "subtitle": "note_four.violin_2",
+    "sounds": ["btnote:block/note_four/violin_2"]
+  },
+  "block.note_five.violin_4": {
+    "subtitle": "note_five.violin_4",
+    "sounds": [ "btnote:block/note_five/violin_4" ]
+  },
+  "block.note_three.violin_4": {
+    "subtitle": "note_two.violin_4",
+    "sounds": ["btnote:block/note_three/violin_4"]
+  },
+  "block.note_two.violin_4": {
+    "subtitle": "note_two.violin_4",
+    "sounds": ["btnote:block/note_two/violin_4"]
+  },
+  "block.note_one.violin_4": {
+    "subtitle": "note_one.violin_4",
+    "sounds": ["btnote:block/note_one/violin_4"]
+  },
+  "block.note_six.violin_4": {
+    "subtitle": "note_six.violin_4",
+    "sounds": ["btnote:block/note_six/violin_4"]
+  },
+  "block.note_seven.violin_4": {
+    "subtitle": "note_seven.violin_4",
+    "sounds": ["btnote:block/note_seven/violin_4"]
+  },
+  "block.note_four.violin_4": {
+    "subtitle": "note_four.violin_4",
+    "sounds": ["btnote:block/note_four/violin_4"]
+  },
+  "block.note_five.violin_5": {
+    "subtitle": "note_five.violin_5",
+    "sounds": [ "btnote:block/note_five/violin_5" ]
+  },
+  "block.note_three.violin_5": {
+    "subtitle": "note_two.violin_5",
+    "sounds": ["btnote:block/note_three/violin_5"]
+  },
+  "block.note_two.violin_5": {
+    "subtitle": "note_two.violin_5",
+    "sounds": ["btnote:block/note_two/violin_5"]
+  },
+  "block.note_one.violin_5": {
+    "subtitle": "note_one.violin_5",
+    "sounds": ["btnote:block/note_one/violin_5"]
+  },
+  "block.note_six.violin_5": {
+    "subtitle": "note_six.violin_5",
+    "sounds": ["btnote:block/note_six/violin_5"]
+  },
+  "block.note_seven.violin_5": {
+    "subtitle": "note_seven.violin_5",
+    "sounds": ["btnote:block/note_seven/violin_5"]
+  },
+  "block.note_four.violin_5": {
+    "subtitle": "note_four.violin_5",
+    "sounds": ["btnote:block/note_four/violin_5"]
   }
 }

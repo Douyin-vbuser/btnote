@@ -288,6 +288,76 @@ public class SoundsHandler{
 
     public static SoundEvent BLOCK_NOTE_SEVEN_STRINGS_5;
 
+    public static SoundEvent BLOCK_NOTE_FIVE_VIOLIN_3;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_VIOLIN_3;
+
+    public static SoundEvent BLOCK_NOTE_THREE_VIOLIN_3;
+
+    public static SoundEvent BLOCK_NOTE_TWO_VIOLIN_3;
+
+    public static SoundEvent BLOCK_NOTE_ONE_VIOLIN_3;
+
+    public static SoundEvent BLOCK_NOTE_SIX_VIOLIN_3;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_VIOLIN_3;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_VIOLIN_1;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_VIOLIN_1;
+
+    public static SoundEvent BLOCK_NOTE_THREE_VIOLIN_1;
+
+    public static SoundEvent BLOCK_NOTE_TWO_VIOLIN_1;
+
+    public static SoundEvent BLOCK_NOTE_ONE_VIOLIN_1;
+
+    public static SoundEvent BLOCK_NOTE_SIX_VIOLIN_1;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_VIOLIN_1;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_VIOLIN_2;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_VIOLIN_2;
+
+    public static SoundEvent BLOCK_NOTE_THREE_VIOLIN_2;
+
+    public static SoundEvent BLOCK_NOTE_TWO_VIOLIN_2;
+
+    public static SoundEvent BLOCK_NOTE_ONE_VIOLIN_2;
+
+    public static SoundEvent BLOCK_NOTE_SIX_VIOLIN_2;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_VIOLIN_2;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_VIOLIN_4;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_VIOLIN_4;
+
+    public static SoundEvent BLOCK_NOTE_THREE_VIOLIN_4;
+
+    public static SoundEvent BLOCK_NOTE_TWO_VIOLIN_4;
+
+    public static SoundEvent BLOCK_NOTE_ONE_VIOLIN_4;
+
+    public static SoundEvent BLOCK_NOTE_SIX_VIOLIN_4;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_VIOLIN_4;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_VIOLIN_5;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_VIOLIN_5;
+
+    public static SoundEvent BLOCK_NOTE_THREE_VIOLIN_5;
+
+    public static SoundEvent BLOCK_NOTE_TWO_VIOLIN_5;
+
+    public static SoundEvent BLOCK_NOTE_ONE_VIOLIN_5;
+
+    public static SoundEvent BLOCK_NOTE_SIX_VIOLIN_5;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_VIOLIN_5;
+
     public static SoundEvent BLOCK_PIANO_ONE_1;
 
     public static SoundEvent BLOCK_PIANO_SIX_1;
@@ -668,6 +738,76 @@ public class SoundsHandler{
         BLOCK_NOTE_SIX_STRINGS_5 = registerSound("block.note_six.strings_5");
 
         BLOCK_NOTE_SEVEN_STRINGS_5 = registerSound("block.note_seven.strings_5");
+
+        BLOCK_NOTE_FIVE_VIOLIN_3 = registerSound("block.note_five.violin_3");
+
+        BLOCK_NOTE_FOUR_VIOLIN_3 = registerSound("block.note_four.violin_3");
+
+        BLOCK_NOTE_THREE_VIOLIN_3 = registerSound("block.note_three.violin_3");
+
+        BLOCK_NOTE_TWO_VIOLIN_3 = registerSound("block.note_two.violin_3");
+
+        BLOCK_NOTE_ONE_VIOLIN_3 = registerSound("block.note_one.violin_3");
+
+        BLOCK_NOTE_SIX_VIOLIN_3 = registerSound("block.note_six.violin_3");
+
+        BLOCK_NOTE_SEVEN_VIOLIN_3 = registerSound("block.note_seven.violin_3");
+
+        BLOCK_NOTE_FIVE_VIOLIN_2 = registerSound("block.note_five.violin_2");
+
+        BLOCK_NOTE_FOUR_VIOLIN_2 = registerSound("block.note_four.violin_2");
+
+        BLOCK_NOTE_THREE_VIOLIN_2 = registerSound("block.note_three.violin_2");
+
+        BLOCK_NOTE_TWO_VIOLIN_2 = registerSound("block.note_two.violin_2");
+
+        BLOCK_NOTE_ONE_VIOLIN_2 = registerSound("block.note_one.violin_2");
+
+        BLOCK_NOTE_SIX_VIOLIN_2 = registerSound("block.note_six.violin_2");
+
+        BLOCK_NOTE_SEVEN_VIOLIN_2 = registerSound("block.note_seven.violin_2");
+
+        BLOCK_NOTE_FIVE_VIOLIN_4 = registerSound("block.note_five.violin_4");
+
+        BLOCK_NOTE_FOUR_VIOLIN_4 = registerSound("block.note_four.violin_4");
+
+        BLOCK_NOTE_THREE_VIOLIN_4 = registerSound("block.note_three.violin_4");
+
+        BLOCK_NOTE_TWO_VIOLIN_4 = registerSound("block.note_two.violin_4");
+
+        BLOCK_NOTE_ONE_VIOLIN_4 = registerSound("block.note_one.violin_4");
+
+        BLOCK_NOTE_SIX_VIOLIN_4 = registerSound("block.note_six.violin_4");
+
+        BLOCK_NOTE_SEVEN_VIOLIN_4 = registerSound("block.note_seven.violin_4");
+
+        BLOCK_NOTE_FIVE_VIOLIN_1 = registerSound("block.note_five.violin_1");
+
+        BLOCK_NOTE_FOUR_VIOLIN_1 = registerSound("block.note_four.violin_1");
+
+        BLOCK_NOTE_THREE_VIOLIN_1 = registerSound("block.note_three.violin_1");
+
+        BLOCK_NOTE_TWO_VIOLIN_1 = registerSound("block.note_two.violin_1");
+
+        BLOCK_NOTE_ONE_VIOLIN_1 = registerSound("block.note_one.violin_1");
+
+        BLOCK_NOTE_SIX_VIOLIN_1 = registerSound("block.note_six.violin_1");
+
+        BLOCK_NOTE_SEVEN_VIOLIN_1 = registerSound("block.note_seven.violin_1");
+
+        BLOCK_NOTE_FIVE_VIOLIN_5 = registerSound("block.note_five.violin_5");
+
+        BLOCK_NOTE_FOUR_VIOLIN_5 = registerSound("block.note_four.violin_5");
+
+        BLOCK_NOTE_THREE_VIOLIN_5 = registerSound("block.note_three.violin_5");
+
+        BLOCK_NOTE_TWO_VIOLIN_5 = registerSound("block.note_two.violin_5");
+
+        BLOCK_NOTE_ONE_VIOLIN_5 = registerSound("block.note_one.violin_5");
+
+        BLOCK_NOTE_SIX_VIOLIN_5 = registerSound("block.note_six.violin_5");
+
+        BLOCK_NOTE_SEVEN_VIOLIN_5 = registerSound("block.note_seven.violin_5");
 
         BLOCK_PIANO_FIVE_3 = registerSound("block.piano_five.3");
 

@@ -1,6 +1,5 @@
 package com.vbuser.btnote.blocks.tileEntity;
 
-import com.google.common.collect.Lists;
 import com.vbuser.btnote.Main;
 import com.vbuser.btnote.blocks.BlockBase;
 import com.vbuser.btnote.init.ModBlocks;
@@ -21,22 +20,19 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
-import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-
-import java.util.List;
 
 //@SuppressWarnings("ALL")
 public class Note_five extends BlockBase {
 
-    int tremble = 4;
+    //int tremble = 5;//作者试图通过下面的那个ArrayList修改if的屎山代码
 
     public static final PropertyBool LOCKED = PropertyBool.create("locked");
 
     public static final PropertyInteger PITCH = PropertyInteger.create("pitch",1,5);
 
-    private static final List<SoundEvent> INSTRUMENTS = Lists.newArrayList(SoundsHandler.BLOCK_NOTE_FIVE_PIANO_1,SoundsHandler.BLOCK_NOTE_FIVE_PIANO_2,SoundsHandler.BLOCK_NOTE_FIVE_PIANO_3,SoundsHandler.BLOCK_NOTE_FIVE_PIANO_4,SoundsHandler.BLOCK_NOTE_FIVE_PIANO_5,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_1,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_2,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_3,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_4,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_5,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_1,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_2,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_3,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_4,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_5,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_1,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_2,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_3,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_4,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_5);
+    //private static final List<SoundEvent> INSTRUMENTS = Lists.newArrayList(SoundsHandler.BLOCK_NOTE_FIVE_PIANO_1,SoundsHandler.BLOCK_NOTE_FIVE_PIANO_2,SoundsHandler.BLOCK_NOTE_FIVE_PIANO_3,SoundsHandler.BLOCK_NOTE_FIVE_PIANO_4,SoundsHandler.BLOCK_NOTE_FIVE_PIANO_5,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_1,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_2,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_3,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_4,SoundsHandler.BLOCK_NOTE_FIVE_ELECTRIC_5,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_1,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_2,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_3,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_4,SoundsHandler.BLOCK_NOTE_FIVE_STRINGS_5,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_1,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_2,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_3,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_4,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_5);
 
     public Note_five(String name, Material material, CreativeTabs tab){
         super(name, material,tab);
@@ -147,6 +143,9 @@ public class Note_five extends BlockBase {
                         if (block == Blocks.PLANKS){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_3,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
+                        if(block == Blocks.LOG){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_VIOLIN_3,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
                     }
 
                     if (state.getValue(PITCH) == 2) {
@@ -161,6 +160,9 @@ public class Note_five extends BlockBase {
                         }
                         if (block == Blocks.PLANKS){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_2,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
+                        if(block == Blocks.LOG){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_VIOLIN_2,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
                     }
 
@@ -177,6 +179,9 @@ public class Note_five extends BlockBase {
                         if (block == Blocks.PLANKS){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_1,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
+                        if(block == Blocks.LOG){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_VIOLIN_1,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
                     }
                     if (state.getValue(PITCH) == 4) {
                         if (block == Blocks.DIRT) {
@@ -191,6 +196,9 @@ public class Note_five extends BlockBase {
                         if (block == Blocks.PLANKS){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_4,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
+                        if(block == Blocks.LOG){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_VIOLIN_4,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
                     }
                     if (state.getValue(PITCH) == 5) {
                         if (block == Blocks.DIRT) {
@@ -204,6 +212,9 @@ public class Note_five extends BlockBase {
                         }
                         if (block == Blocks.PLANKS){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_GUITAR_5,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
+                        if(block == Blocks.LOG){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_VIOLIN_5,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
                     }
                 }

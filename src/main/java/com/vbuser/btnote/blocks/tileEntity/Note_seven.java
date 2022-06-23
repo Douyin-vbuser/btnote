@@ -2,7 +2,6 @@ package com.vbuser.btnote.blocks.tileEntity;
 
 import com.vbuser.btnote.Main;
 import com.vbuser.btnote.blocks.BlockBase;
-import com.vbuser.btnote.blocks.tileEntity.Piano_seven;
 import com.vbuser.btnote.init.ModBlocks;
 import com.vbuser.btnote.init.ModItems;
 import com.vbuser.btnote.util.handlers.SoundsHandler;
@@ -137,6 +136,9 @@ public class Note_seven extends BlockBase {
                         if (block == Blocks.PLANKS){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_SEVEN_GUITAR_3,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
+                        if(block == Blocks.LOG){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_SEVEN_VIOLIN_3,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
                     }
 
                     if (state.getValue(PITCH) == 2) {
@@ -151,6 +153,9 @@ public class Note_seven extends BlockBase {
                         }
                         if (block == Blocks.PLANKS){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_SEVEN_GUITAR_2,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
+                        if(block == Blocks.LOG){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_SEVEN_VIOLIN_2,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
                     }
 
@@ -167,6 +172,9 @@ public class Note_seven extends BlockBase {
                         if (block == Blocks.PLANKS){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_SEVEN_GUITAR_1,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
+                        if(block == Blocks.LOG){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_SEVEN_VIOLIN_1,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
                     }
                     if (state.getValue(PITCH) == 4) {
                         if (block == Blocks.DIRT) {
@@ -181,6 +189,9 @@ public class Note_seven extends BlockBase {
                         if (block == Blocks.PLANKS){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_SEVEN_GUITAR_4,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
+                        if(block == Blocks.LOG){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_SEVEN_VIOLIN_4,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
                     }
                     if (state.getValue(PITCH) == 5) {
                         if (block == Blocks.DIRT) {
@@ -194,6 +205,9 @@ public class Note_seven extends BlockBase {
                         }
                         if (block == Blocks.PLANKS){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_SEVEN_GUITAR_5,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
+                        if(block == Blocks.LOG){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_SEVEN_VIOLIN_5,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
                     }
                 }
