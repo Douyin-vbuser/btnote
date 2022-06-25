@@ -456,6 +456,76 @@ public class SoundsHandler{
 
     public static SoundEvent BLOCK_PIANO_TWO_1;
 
+    public static SoundEvent BLOCK_NOTE_FIVE_BRASS_3;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_BRASS_3;
+
+    public static SoundEvent BLOCK_NOTE_THREE_BRASS_3;
+
+    public static SoundEvent BLOCK_NOTE_TWO_BRASS_3;
+
+    public static SoundEvent BLOCK_NOTE_ONE_BRASS_3;
+
+    public static SoundEvent BLOCK_NOTE_SIX_BRASS_3;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_BRASS_3;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_BRASS_1;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_BRASS_1;
+
+    public static SoundEvent BLOCK_NOTE_THREE_BRASS_1;
+
+    public static SoundEvent BLOCK_NOTE_TWO_BRASS_1;
+
+    public static SoundEvent BLOCK_NOTE_ONE_BRASS_1;
+
+    public static SoundEvent BLOCK_NOTE_SIX_BRASS_1;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_BRASS_1;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_BRASS_2;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_BRASS_2;
+
+    public static SoundEvent BLOCK_NOTE_THREE_BRASS_2;
+
+    public static SoundEvent BLOCK_NOTE_TWO_BRASS_2;
+
+    public static SoundEvent BLOCK_NOTE_ONE_BRASS_2;
+
+    public static SoundEvent BLOCK_NOTE_SIX_BRASS_2;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_BRASS_2;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_BRASS_4;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_BRASS_4;
+
+    public static SoundEvent BLOCK_NOTE_THREE_BRASS_4;
+
+    public static SoundEvent BLOCK_NOTE_TWO_BRASS_4;
+
+    public static SoundEvent BLOCK_NOTE_ONE_BRASS_4;
+
+    public static SoundEvent BLOCK_NOTE_SIX_BRASS_4;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_BRASS_4;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_BRASS_5;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_BRASS_5;
+
+    public static SoundEvent BLOCK_NOTE_THREE_BRASS_5;
+
+    public static SoundEvent BLOCK_NOTE_TWO_BRASS_5;
+
+    public static SoundEvent BLOCK_NOTE_ONE_BRASS_5;
+
+    public static SoundEvent BLOCK_NOTE_SIX_BRASS_5;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_BRASS_5;
+
 
     public static void registerSounds(){
 
@@ -906,6 +976,76 @@ public class SoundsHandler{
         BLOCK_PIANO_SIX_7 = registerSound("block.piano_six.7");
 
         BLOCK_PIANO_SEVEN_7 = registerSound("block.piano_seven.7");
+
+        BLOCK_NOTE_FIVE_BRASS_3 = registerSound("block.note_five.brass_3");
+
+        BLOCK_NOTE_FOUR_BRASS_3 = registerSound("block.note_four.brass_3");
+
+        BLOCK_NOTE_THREE_BRASS_3 = registerSound("block.note_three.brass_3");
+
+        BLOCK_NOTE_TWO_BRASS_3 = registerSound("block.note_two.brass_3");
+
+        BLOCK_NOTE_ONE_BRASS_3 = registerSound("block.note_one.brass_3");
+
+        BLOCK_NOTE_SIX_BRASS_3 = registerSound("block.note_six.brass_3");
+
+        BLOCK_NOTE_SEVEN_BRASS_3 = registerSound("block.note_seven.brass_3");
+
+        BLOCK_NOTE_FIVE_BRASS_2 = registerSound("block.note_five.brass_2");
+
+        BLOCK_NOTE_FOUR_BRASS_2 = registerSound("block.note_four.brass_2");
+
+        BLOCK_NOTE_THREE_BRASS_2 = registerSound("block.note_three.brass_2");
+
+        BLOCK_NOTE_TWO_BRASS_2 = registerSound("block.note_two.brass_2");
+
+        BLOCK_NOTE_ONE_BRASS_2 = registerSound("block.note_one.brass_2");
+
+        BLOCK_NOTE_SIX_BRASS_2 = registerSound("block.note_six.brass_2");
+
+        BLOCK_NOTE_SEVEN_BRASS_2 = registerSound("block.note_seven.brass_2");
+
+        BLOCK_NOTE_FIVE_BRASS_4 = registerSound("block.note_five.brass_4");
+
+        BLOCK_NOTE_FOUR_BRASS_4 = registerSound("block.note_four.brass_4");
+
+        BLOCK_NOTE_THREE_BRASS_4 = registerSound("block.note_three.brass_4");
+
+        BLOCK_NOTE_TWO_BRASS_4 = registerSound("block.note_two.brass_4");
+
+        BLOCK_NOTE_ONE_BRASS_4 = registerSound("block.note_one.brass_4");
+
+        BLOCK_NOTE_SIX_BRASS_4 = registerSound("block.note_six.brass_4");
+
+        BLOCK_NOTE_SEVEN_BRASS_4 = registerSound("block.note_seven.brass_4");
+
+        BLOCK_NOTE_FIVE_BRASS_1 = registerSound("block.note_five.brass_1");
+
+        BLOCK_NOTE_FOUR_BRASS_1 = registerSound("block.note_four.brass_1");
+
+        BLOCK_NOTE_THREE_BRASS_1 = registerSound("block.note_three.brass_1");
+
+        BLOCK_NOTE_TWO_BRASS_1 = registerSound("block.note_two.brass_1");
+
+        BLOCK_NOTE_ONE_BRASS_1 = registerSound("block.note_one.brass_1");
+
+        BLOCK_NOTE_SIX_BRASS_1 = registerSound("block.note_six.brass_1");
+
+        BLOCK_NOTE_SEVEN_BRASS_1 = registerSound("block.note_seven.brass_1");
+
+        BLOCK_NOTE_FIVE_BRASS_5 = registerSound("block.note_five.brass_5");
+
+        BLOCK_NOTE_FOUR_BRASS_5 = registerSound("block.note_four.brass_5");
+
+        BLOCK_NOTE_THREE_BRASS_5 = registerSound("block.note_three.brass_5");
+
+        BLOCK_NOTE_TWO_BRASS_5 = registerSound("block.note_two.brass_5");
+
+        BLOCK_NOTE_ONE_BRASS_5 = registerSound("block.note_one.brass_5");
+
+        BLOCK_NOTE_SIX_BRASS_5 = registerSound("block.note_six.brass_5");
+
+        BLOCK_NOTE_SEVEN_BRASS_5 = registerSound("block.note_seven.brass_5");
     }
 
     private static SoundEvent registerSound(String name){

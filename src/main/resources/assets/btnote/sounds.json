@@ -894,5 +894,145 @@
   "block.note_four.violin_5": {
     "subtitle": "note_four.violin_5",
     "sounds": ["btnote:block/note_four/violin_5"]
+  },
+  "block.note_five.brass_3": {
+    "subtitle": "note_five.brass_3",
+    "sounds": [ "btnote:block/note_five/brass_3" ]
+  },
+  "block.note_three.brass_3": {
+    "subtitle": "note_two.brass_3",
+    "sounds": ["btnote:block/note_three/brass_3"]
+  },
+  "block.note_two.brass_3": {
+    "subtitle": "note_two.brass_3",
+    "sounds": ["btnote:block/note_two/brass_3"]
+  },
+  "block.note_one.brass_3": {
+    "subtitle": "note_one.brass_3",
+    "sounds": ["btnote:block/note_one/brass_3"]
+  },
+  "block.note_six.brass_3": {
+    "subtitle": "note_six.brass_3",
+    "sounds": ["btnote:block/note_six/brass_3"]
+  },
+  "block.note_seven.brass_3": {
+    "subtitle": "note_seven.brass_3",
+    "sounds": ["btnote:block/note_seven/brass_3"]
+  },
+  "block.note_four.brass_3": {
+    "subtitle": "note_four.brass_3",
+    "sounds": ["btnote:block/note_four/brass_3"]
+  },
+  "block.note_five.brass_1": {
+    "subtitle": "note_five.brass_1",
+    "sounds": [ "btnote:block/note_five/brass_1" ]
+  },
+  "block.note_three.brass_1": {
+    "subtitle": "note_two.brass_1",
+    "sounds": ["btnote:block/note_three/brass_1"]
+  },
+  "block.note_two.brass_1": {
+    "subtitle": "note_two.brass_1",
+    "sounds": ["btnote:block/note_two/brass_1"]
+  },
+  "block.note_one.brass_1": {
+    "subtitle": "note_one.brass_1",
+    "sounds": ["btnote:block/note_one/brass_1"]
+  },
+  "block.note_six.brass_1": {
+    "subtitle": "note_six.brass_1",
+    "sounds": ["btnote:block/note_six/brass_1"]
+  },
+  "block.note_seven.brass_1": {
+    "subtitle": "note_seven.brass_1",
+    "sounds": ["btnote:block/note_seven/brass_1"]
+  },
+  "block.note_four.brass_1": {
+    "subtitle": "note_four.brass_1",
+    "sounds": ["btnote:block/note_four/brass_1"]
+  },
+  "block.note_five.brass_2": {
+    "subtitle": "note_five.brass_2",
+    "sounds": [ "btnote:block/note_five/brass_2" ]
+  },
+  "block.note_three.brass_2": {
+    "subtitle": "note_two.brass_2",
+    "sounds": ["btnote:block/note_three/brass_2"]
+  },
+  "block.note_two.brass_2": {
+    "subtitle": "note_two.brass_2",
+    "sounds": ["btnote:block/note_two/brass_2"]
+  },
+  "block.note_one.brass_2": {
+    "subtitle": "note_one.brass_2",
+    "sounds": ["btnote:block/note_one/brass_2"]
+  },
+  "block.note_six.brass_2": {
+    "subtitle": "note_six.brass_2",
+    "sounds": ["btnote:block/note_six/brass_2"]
+  },
+  "block.note_seven.brass_2": {
+    "subtitle": "note_seven.brass_2",
+    "sounds": ["btnote:block/note_seven/brass_2"]
+  },
+  "block.note_four.brass_2": {
+    "subtitle": "note_four.brass_2",
+    "sounds": ["btnote:block/note_four/brass_2"]
+  },
+  "block.note_five.brass_4": {
+    "subtitle": "note_five.brass_4",
+    "sounds": [ "btnote:block/note_five/brass_4" ]
+  },
+  "block.note_three.brass_4": {
+    "subtitle": "note_two.brass_4",
+    "sounds": ["btnote:block/note_three/brass_4"]
+  },
+  "block.note_two.brass_4": {
+    "subtitle": "note_two.brass_4",
+    "sounds": ["btnote:block/note_two/brass_4"]
+  },
+  "block.note_one.brass_4": {
+    "subtitle": "note_one.brass_4",
+    "sounds": ["btnote:block/note_one/brass_4"]
+  },
+  "block.note_six.brass_4": {
+    "subtitle": "note_six.brass_4",
+    "sounds": ["btnote:block/note_six/brass_4"]
+  },
+  "block.note_seven.brass_4": {
+    "subtitle": "note_seven.brass_4",
+    "sounds": ["btnote:block/note_seven/brass_4"]
+  },
+  "block.note_four.brass_4": {
+    "subtitle": "note_four.brass_4",
+    "sounds": ["btnote:block/note_four/brass_4"]
+  },
+  "block.note_five.brass_5": {
+    "subtitle": "note_five.brass_5",
+    "sounds": [ "btnote:block/note_five/brass_5" ]
+  },
+  "block.note_three.brass_5": {
+    "subtitle": "note_two.brass_5",
+    "sounds": ["btnote:block/note_three/brass_5"]
+  },
+  "block.note_two.brass_5": {
+    "subtitle": "note_two.brass_5",
+    "sounds": ["btnote:block/note_two/brass_5"]
+  },
+  "block.note_one.brass_5": {
+    "subtitle": "note_one.brass_5",
+    "sounds": ["btnote:block/note_one/brass_5"]
+  },
+  "block.note_six.brass_5": {
+    "subtitle": "note_six.brass_5",
+    "sounds": ["btnote:block/note_six/brass_5"]
+  },
+  "block.note_seven.brass_5": {
+    "subtitle": "note_seven.brass_5",
+    "sounds": ["btnote:block/note_seven/brass_5"]
+  },
+  "block.note_four.brass_5": {
+    "subtitle": "note_four.brass_5",
+    "sounds": ["btnote:block/note_four/brass_5"]
   }
 }
