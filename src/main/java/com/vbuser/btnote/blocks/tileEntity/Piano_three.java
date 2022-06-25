@@ -63,13 +63,9 @@ public class Piano_three extends BlockBase {
             if (state.getValue(LOCKED)) {
                 playerIn.sendMessage(new net.minecraft.util.text.TextComponentString("The block is already locked"));
             } else {
-                if (state.getValue(PITCH) == 7) {
-                    worldIn.setBlockState(pos, state.withProperty(PITCH, 1));
-                } else {
-                    int pitch = state.getValue(PITCH);
-                    pitch = pitch + 1;
-                    worldIn.setBlockState(pos, state.withProperty(PITCH, pitch));
-                }
+                int pitch = state.getValue(PITCH);
+                pitch = (pitch + 1)%7;
+                worldIn.setBlockState(pos, state.withProperty(PITCH,pitch));
             }
         }
         if(playerIn.getHeldItemMainhand().getItem() == ModItems.NOTE_TOOLS){
