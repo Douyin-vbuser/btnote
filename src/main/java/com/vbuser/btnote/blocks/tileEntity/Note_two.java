@@ -141,6 +141,9 @@ public class Note_two extends BlockBase {
                         if(block == Blocks.SANDSTONE){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_TWO_BRASS_3,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
+                        if(block == Blocks.LEAVES){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_TWO_WOODWIND_3,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
                     }
 
                     if (state.getValue(PITCH) == 2) {
@@ -161,6 +164,9 @@ public class Note_two extends BlockBase {
                         }
                         if(block == Blocks.SANDSTONE){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_TWO_BRASS_2,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
+                        if(block == Blocks.LEAVES){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_TWO_WOODWIND_2,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
                     }
 
@@ -183,6 +189,9 @@ public class Note_two extends BlockBase {
                         if(block == Blocks.SANDSTONE){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_TWO_BRASS_1,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
+                        if(block == Blocks.LEAVES){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_TWO_WOODWIND_1,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
                     }
                     if (state.getValue(PITCH) == 4) {
                         if (block == Blocks.DIRT) {
@@ -203,6 +212,9 @@ public class Note_two extends BlockBase {
                         if(block == Blocks.SANDSTONE){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_TWO_BRASS_4,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
+                        if(block == Blocks.LEAVES){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_TWO_WOODWIND_4,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
                     }
                     if (state.getValue(PITCH) == 5) {
                         if (block == Blocks.DIRT) {
@@ -222,6 +234,9 @@ public class Note_two extends BlockBase {
                         }
                         if(block == Blocks.SANDSTONE){
                             worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_TWO_BRASS_5,SoundCategory.BLOCKS,3.0F,1.0F);
+                        }
+                        if(block == Blocks.LEAVES){
+                            worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_TWO_WOODWIND_5,SoundCategory.BLOCKS,3.0F,1.0F);
                         }
                     }
                 }

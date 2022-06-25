@@ -1034,5 +1034,145 @@
   "block.note_four.brass_5": {
     "subtitle": "note_four.brass_5",
     "sounds": ["btnote:block/note_four/brass_5"]
+  },
+  "block.note_five.woodwind_3": {
+    "subtitle": "note_five.woodwind_3",
+    "sounds": [ "btnote:block/note_five/woodwind_3" ]
+  },
+  "block.note_three.woodwind_3": {
+    "subtitle": "note_two.woodwind_3",
+    "sounds": ["btnote:block/note_three/woodwind_3"]
+  },
+  "block.note_two.woodwind_3": {
+    "subtitle": "note_two.woodwind_3",
+    "sounds": ["btnote:block/note_two/woodwind_3"]
+  },
+  "block.note_one.woodwind_3": {
+    "subtitle": "note_one.woodwind_3",
+    "sounds": ["btnote:block/note_one/woodwind_3"]
+  },
+  "block.note_six.woodwind_3": {
+    "subtitle": "note_six.woodwind_3",
+    "sounds": ["btnote:block/note_six/woodwind_3"]
+  },
+  "block.note_seven.woodwind_3": {
+    "subtitle": "note_seven.woodwind_3",
+    "sounds": ["btnote:block/note_seven/woodwind_3"]
+  },
+  "block.note_four.woodwind_3": {
+    "subtitle": "note_four.woodwind_3",
+    "sounds": ["btnote:block/note_four/woodwind_3"]
+  },
+  "block.note_five.woodwind_1": {
+    "subtitle": "note_five.woodwind_1",
+    "sounds": [ "btnote:block/note_five/woodwind_1" ]
+  },
+  "block.note_three.woodwind_1": {
+    "subtitle": "note_two.woodwind_1",
+    "sounds": ["btnote:block/note_three/woodwind_1"]
+  },
+  "block.note_two.woodwind_1": {
+    "subtitle": "note_two.woodwind_1",
+    "sounds": ["btnote:block/note_two/woodwind_1"]
+  },
+  "block.note_one.woodwind_1": {
+    "subtitle": "note_one.woodwind_1",
+    "sounds": ["btnote:block/note_one/woodwind_1"]
+  },
+  "block.note_six.woodwind_1": {
+    "subtitle": "note_six.woodwind_1",
+    "sounds": ["btnote:block/note_six/woodwind_1"]
+  },
+  "block.note_seven.woodwind_1": {
+    "subtitle": "note_seven.woodwind_1",
+    "sounds": ["btnote:block/note_seven/woodwind_1"]
+  },
+  "block.note_four.woodwind_1": {
+    "subtitle": "note_four.woodwind_1",
+    "sounds": ["btnote:block/note_four/woodwind_1"]
+  },
+  "block.note_five.woodwind_2": {
+    "subtitle": "note_five.woodwind_2",
+    "sounds": [ "btnote:block/note_five/woodwind_2" ]
+  },
+  "block.note_three.woodwind_2": {
+    "subtitle": "note_two.woodwind_2",
+    "sounds": ["btnote:block/note_three/woodwind_2"]
+  },
+  "block.note_two.woodwind_2": {
+    "subtitle": "note_two.woodwind_2",
+    "sounds": ["btnote:block/note_two/woodwind_2"]
+  },
+  "block.note_one.woodwind_2": {
+    "subtitle": "note_one.woodwind_2",
+    "sounds": ["btnote:block/note_one/woodwind_2"]
+  },
+  "block.note_six.woodwind_2": {
+    "subtitle": "note_six.woodwind_2",
+    "sounds": ["btnote:block/note_six/woodwind_2"]
+  },
+  "block.note_seven.woodwind_2": {
+    "subtitle": "note_seven.woodwind_2",
+    "sounds": ["btnote:block/note_seven/woodwind_2"]
+  },
+  "block.note_four.woodwind_2": {
+    "subtitle": "note_four.woodwind_2",
+    "sounds": ["btnote:block/note_four/woodwind_2"]
+  },
+  "block.note_five.woodwind_4": {
+    "subtitle": "note_five.woodwind_4",
+    "sounds": [ "btnote:block/note_five/woodwind_4" ]
+  },
+  "block.note_three.woodwind_4": {
+    "subtitle": "note_two.woodwind_4",
+    "sounds": ["btnote:block/note_three/woodwind_4"]
+  },
+  "block.note_two.woodwind_4": {
+    "subtitle": "note_two.woodwind_4",
+    "sounds": ["btnote:block/note_two/woodwind_4"]
+  },
+  "block.note_one.woodwind_4": {
+    "subtitle": "note_one.woodwind_4",
+    "sounds": ["btnote:block/note_one/woodwind_4"]
+  },
+  "block.note_six.woodwind_4": {
+    "subtitle": "note_six.woodwind_4",
+    "sounds": ["btnote:block/note_six/woodwind_4"]
+  },
+  "block.note_seven.woodwind_4": {
+    "subtitle": "note_seven.woodwind_4",
+    "sounds": ["btnote:block/note_seven/woodwind_4"]
+  },
+  "block.note_four.woodwind_4": {
+    "subtitle": "note_four.woodwind_4",
+    "sounds": ["btnote:block/note_four/woodwind_4"]
+  },
+  "block.note_five.woodwind_5": {
+    "subtitle": "note_five.woodwind_5",
+    "sounds": [ "btnote:block/note_five/woodwind_5" ]
+  },
+  "block.note_three.woodwind_5": {
+    "subtitle": "note_two.woodwind_5",
+    "sounds": ["btnote:block/note_three/woodwind_5"]
+  },
+  "block.note_two.woodwind_5": {
+    "subtitle": "note_two.woodwind_5",
+    "sounds": ["btnote:block/note_two/woodwind_5"]
+  },
+  "block.note_one.woodwind_5": {
+    "subtitle": "note_one.woodwind_5",
+    "sounds": ["btnote:block/note_one/woodwind_5"]
+  },
+  "block.note_six.woodwind_5": {
+    "subtitle": "note_six.woodwind_5",
+    "sounds": ["btnote:block/note_six/woodwind_5"]
+  },
+  "block.note_seven.woodwind_5": {
+    "subtitle": "note_seven.woodwind_5",
+    "sounds": ["btnote:block/note_seven/woodwind_5"]
+  },
+  "block.note_four.woodwind_5": {
+    "subtitle": "note_four.woodwind_5",
+    "sounds": ["btnote:block/note_four/woodwind_5"]
   }
 }

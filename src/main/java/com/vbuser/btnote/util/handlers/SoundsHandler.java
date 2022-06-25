@@ -526,6 +526,76 @@ public class SoundsHandler{
 
     public static SoundEvent BLOCK_NOTE_SEVEN_BRASS_5;
 
+    public static SoundEvent BLOCK_NOTE_FIVE_WOODWIND_3;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_WOODWIND_3;
+
+    public static SoundEvent BLOCK_NOTE_THREE_WOODWIND_3;
+
+    public static SoundEvent BLOCK_NOTE_TWO_WOODWIND_3;
+
+    public static SoundEvent BLOCK_NOTE_ONE_WOODWIND_3;
+
+    public static SoundEvent BLOCK_NOTE_SIX_WOODWIND_3;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_WOODWIND_3;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_WOODWIND_1;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_WOODWIND_1;
+
+    public static SoundEvent BLOCK_NOTE_THREE_WOODWIND_1;
+
+    public static SoundEvent BLOCK_NOTE_TWO_WOODWIND_1;
+
+    public static SoundEvent BLOCK_NOTE_ONE_WOODWIND_1;
+
+    public static SoundEvent BLOCK_NOTE_SIX_WOODWIND_1;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_WOODWIND_1;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_WOODWIND_2;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_WOODWIND_2;
+
+    public static SoundEvent BLOCK_NOTE_THREE_WOODWIND_2;
+
+    public static SoundEvent BLOCK_NOTE_TWO_WOODWIND_2;
+
+    public static SoundEvent BLOCK_NOTE_ONE_WOODWIND_2;
+
+    public static SoundEvent BLOCK_NOTE_SIX_WOODWIND_2;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_WOODWIND_2;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_WOODWIND_4;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_WOODWIND_4;
+
+    public static SoundEvent BLOCK_NOTE_THREE_WOODWIND_4;
+
+    public static SoundEvent BLOCK_NOTE_TWO_WOODWIND_4;
+
+    public static SoundEvent BLOCK_NOTE_ONE_WOODWIND_4;
+
+    public static SoundEvent BLOCK_NOTE_SIX_WOODWIND_4;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_WOODWIND_4;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_WOODWIND_5;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_WOODWIND_5;
+
+    public static SoundEvent BLOCK_NOTE_THREE_WOODWIND_5;
+
+    public static SoundEvent BLOCK_NOTE_TWO_WOODWIND_5;
+
+    public static SoundEvent BLOCK_NOTE_ONE_WOODWIND_5;
+
+    public static SoundEvent BLOCK_NOTE_SIX_WOODWIND_5;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_WOODWIND_5;
+
 
     public static void registerSounds(){
 
@@ -1046,6 +1116,76 @@ public class SoundsHandler{
         BLOCK_NOTE_SIX_BRASS_5 = registerSound("block.note_six.brass_5");
 
         BLOCK_NOTE_SEVEN_BRASS_5 = registerSound("block.note_seven.brass_5");
+
+        BLOCK_NOTE_FIVE_WOODWIND_3 = registerSound("block.note_five.woodwind_3");
+
+        BLOCK_NOTE_FOUR_WOODWIND_3 = registerSound("block.note_four.woodwind_3");
+
+        BLOCK_NOTE_THREE_WOODWIND_3 = registerSound("block.note_three.woodwind_3");
+
+        BLOCK_NOTE_TWO_WOODWIND_3 = registerSound("block.note_two.woodwind_3");
+
+        BLOCK_NOTE_ONE_WOODWIND_3 = registerSound("block.note_one.woodwind_3");
+
+        BLOCK_NOTE_SIX_WOODWIND_3 = registerSound("block.note_six.woodwind_3");
+
+        BLOCK_NOTE_SEVEN_WOODWIND_3 = registerSound("block.note_seven.woodwind_3");
+
+        BLOCK_NOTE_FIVE_WOODWIND_2 = registerSound("block.note_five.woodwind_2");
+
+        BLOCK_NOTE_FOUR_WOODWIND_2 = registerSound("block.note_four.woodwind_2");
+
+        BLOCK_NOTE_THREE_WOODWIND_2 = registerSound("block.note_three.woodwind_2");
+
+        BLOCK_NOTE_TWO_WOODWIND_2 = registerSound("block.note_two.woodwind_2");
+
+        BLOCK_NOTE_ONE_WOODWIND_2 = registerSound("block.note_one.woodwind_2");
+
+        BLOCK_NOTE_SIX_WOODWIND_2 = registerSound("block.note_six.woodwind_2");
+
+        BLOCK_NOTE_SEVEN_WOODWIND_2 = registerSound("block.note_seven.woodwind_2");
+
+        BLOCK_NOTE_FIVE_WOODWIND_4 = registerSound("block.note_five.woodwind_4");
+
+        BLOCK_NOTE_FOUR_WOODWIND_4 = registerSound("block.note_four.woodwind_4");
+
+        BLOCK_NOTE_THREE_WOODWIND_4 = registerSound("block.note_three.woodwind_4");
+
+        BLOCK_NOTE_TWO_WOODWIND_4 = registerSound("block.note_two.woodwind_4");
+
+        BLOCK_NOTE_ONE_WOODWIND_4 = registerSound("block.note_one.woodwind_4");
+
+        BLOCK_NOTE_SIX_WOODWIND_4 = registerSound("block.note_six.woodwind_4");
+
+        BLOCK_NOTE_SEVEN_WOODWIND_4 = registerSound("block.note_seven.woodwind_4");
+
+        BLOCK_NOTE_FIVE_WOODWIND_1 = registerSound("block.note_five.woodwind_1");
+
+        BLOCK_NOTE_FOUR_WOODWIND_1 = registerSound("block.note_four.woodwind_1");
+
+        BLOCK_NOTE_THREE_WOODWIND_1 = registerSound("block.note_three.woodwind_1");
+
+        BLOCK_NOTE_TWO_WOODWIND_1 = registerSound("block.note_two.woodwind_1");
+
+        BLOCK_NOTE_ONE_WOODWIND_1 = registerSound("block.note_one.woodwind_1");
+
+        BLOCK_NOTE_SIX_WOODWIND_1 = registerSound("block.note_six.woodwind_1");
+
+        BLOCK_NOTE_SEVEN_WOODWIND_1 = registerSound("block.note_seven.woodwind_1");
+
+        BLOCK_NOTE_FIVE_WOODWIND_5 = registerSound("block.note_five.woodwind_5");
+
+        BLOCK_NOTE_FOUR_WOODWIND_5 = registerSound("block.note_four.woodwind_5");
+
+        BLOCK_NOTE_THREE_WOODWIND_5 = registerSound("block.note_three.woodwind_5");
+
+        BLOCK_NOTE_TWO_WOODWIND_5 = registerSound("block.note_two.woodwind_5");
+
+        BLOCK_NOTE_ONE_WOODWIND_5 = registerSound("block.note_one.woodwind_5");
+
+        BLOCK_NOTE_SIX_WOODWIND_5 = registerSound("block.note_six.woodwind_5");
+
+        BLOCK_NOTE_SEVEN_WOODWIND_5 = registerSound("block.note_seven.woodwind_5");
     }
 
     private static SoundEvent registerSound(String name){
