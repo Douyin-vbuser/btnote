@@ -55,7 +55,7 @@ public class Note_five extends BlockBase {
             else
             {
                 int pitch = state.getValue(PITCH);
-                pitch = (pitch + 1)%5;
+                pitch = (pitch==5)?1:(pitch+1);
                 worldIn.setBlockState(pos, state.withProperty(PITCH,pitch));
             }
         }

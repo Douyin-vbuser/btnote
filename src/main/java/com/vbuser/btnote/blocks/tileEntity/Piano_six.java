@@ -64,7 +64,7 @@ public class Piano_six extends BlockBase {
                 playerIn.sendMessage(new net.minecraft.util.text.TextComponentString("The block is already locked"));
             } else {
                 int pitch = state.getValue(PITCH);
-                pitch = (pitch + 1)%7;
+                pitch = (pitch==7)?1:(pitch+1);
                 worldIn.setBlockState(pos, state.withProperty(PITCH,pitch));
             }
         }

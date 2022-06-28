@@ -49,7 +49,7 @@ public class Note_four extends BlockBase {
                 playerIn.sendMessage(new net.minecraft.util.text.TextComponentString("The block is already locked"));
             } else {
                 int pitch = state.getValue(PITCH);
-                pitch = (pitch + 1)%5;
+                pitch = (pitch==5)?1:(pitch+1);
                 worldIn.setBlockState(pos, state.withProperty(PITCH,pitch));
             }
         }

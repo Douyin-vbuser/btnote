@@ -46,7 +46,7 @@ public class Note_six extends BlockBase {
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         if (playerIn.getHeldItemMainhand().getItem() == ModItems.PITCH_TOOLS) {
             int pitch = state.getValue(PITCH);
-            pitch = (pitch + 1)%5;
+            pitch = (pitch==5)?1:(pitch+1);
             worldIn.setBlockState(pos, state.withProperty(PITCH,pitch));
         }
         if(playerIn.getHeldItemMainhand().getItem() == ModItems.NOTE_TOOLS){
