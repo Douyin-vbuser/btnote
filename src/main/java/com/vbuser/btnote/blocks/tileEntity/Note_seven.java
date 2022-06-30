@@ -69,7 +69,7 @@ public class Note_seven extends BlockBase {
             if (state.getValue(LOCKED)) {
                 playerIn.sendMessage(new net.minecraft.util.text.TextComponentString("The block is locked"));
             } else {
-                worldIn.setBlockState(pos, ModBlocks.PIANO_SEVEN.getBlockState().getBaseState().withProperty(Piano_seven.PITCH,(state.getValue(PITCH)+1)).withProperty(LOCKED,false), 2);
+                worldIn.setBlockState(pos, ModBlocks.PIANO_SEVEN.getBlockState().getBaseState().withProperty(Piano_seven.PITCH,(state.getValue(PITCH)+1)).withProperty(Piano_seven.HARD,false), 2);
             }
         }
     return true;
