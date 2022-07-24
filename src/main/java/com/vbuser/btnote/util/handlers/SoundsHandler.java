@@ -595,6 +595,75 @@ public class SoundsHandler{
     public static SoundEvent BLOCK_NOTE_SIX_WOODWIND_5;
 
     public static SoundEvent BLOCK_NOTE_SEVEN_WOODWIND_5;
+    public static SoundEvent BLOCK_NOTE_FIVE_STRINGS_3_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_STRINGS_3_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_THREE_STRINGS_3_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_TWO_STRINGS_3_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_ONE_STRINGS_3_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_SIX_STRINGS_3_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_STRINGS_3_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_STRINGS_1_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_STRINGS_1_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_THREE_STRINGS_1_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_TWO_STRINGS_1_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_ONE_STRINGS_1_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_SIX_STRINGS_1_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_STRINGS_1_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_STRINGS_2_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_STRINGS_2_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_THREE_STRINGS_2_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_TWO_STRINGS_2_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_ONE_STRINGS_2_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_SIX_STRINGS_2_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_STRINGS_2_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_STRINGS_4_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_STRINGS_4_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_THREE_STRINGS_4_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_TWO_STRINGS_4_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_ONE_STRINGS_4_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_SIX_STRINGS_4_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_STRINGS_4_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_FIVE_STRINGS_5_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_FOUR_STRINGS_5_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_THREE_STRINGS_5_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_TWO_STRINGS_5_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_ONE_STRINGS_5_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_SIX_STRINGS_5_SHORT;
+
+    public static SoundEvent BLOCK_NOTE_SEVEN_STRINGS_5_SHORT;
 
 
     public static void registerSounds(){
@@ -1186,6 +1255,76 @@ public class SoundsHandler{
         BLOCK_NOTE_SIX_WOODWIND_5 = registerSound("block.note_six.woodwind_5");
 
         BLOCK_NOTE_SEVEN_WOODWIND_5 = registerSound("block.note_seven.woodwind_5");
+
+        BLOCK_NOTE_FIVE_STRINGS_3_SHORT = registerSound("block.note_five.strings_3_short");
+
+        BLOCK_NOTE_FOUR_STRINGS_3_SHORT = registerSound("block.note_four.strings_3_short");
+
+        BLOCK_NOTE_THREE_STRINGS_3_SHORT = registerSound("block.note_three.strings_3_short");
+
+        BLOCK_NOTE_TWO_STRINGS_3_SHORT = registerSound("block.note_two.strings_3_short");
+
+        BLOCK_NOTE_ONE_STRINGS_3_SHORT = registerSound("block.note_one.strings_3_short");
+
+        BLOCK_NOTE_SIX_STRINGS_3_SHORT = registerSound("block.note_six.strings_3_short");
+
+        BLOCK_NOTE_SEVEN_STRINGS_3_SHORT = registerSound("block.note_seven.strings_3_short");
+
+        BLOCK_NOTE_FIVE_STRINGS_2_SHORT = registerSound("block.note_five.strings_2_short");
+
+        BLOCK_NOTE_FOUR_STRINGS_2_SHORT = registerSound("block.note_four.strings_2_short");
+
+        BLOCK_NOTE_THREE_STRINGS_2_SHORT = registerSound("block.note_three.strings_2_short");
+
+        BLOCK_NOTE_TWO_STRINGS_2_SHORT = registerSound("block.note_two.strings_2_short");
+
+        BLOCK_NOTE_ONE_STRINGS_2_SHORT = registerSound("block.note_one.strings_2_short");
+
+        BLOCK_NOTE_SIX_STRINGS_2_SHORT = registerSound("block.note_six.strings_2_short");
+
+        BLOCK_NOTE_SEVEN_STRINGS_2_SHORT = registerSound("block.note_seven.strings_2_short");
+
+        BLOCK_NOTE_FIVE_STRINGS_4_SHORT = registerSound("block.note_five.strings_4_short");
+
+        BLOCK_NOTE_FOUR_STRINGS_4_SHORT = registerSound("block.note_four.strings_4_short");
+
+        BLOCK_NOTE_THREE_STRINGS_4_SHORT = registerSound("block.note_three.strings_4_short");
+
+        BLOCK_NOTE_TWO_STRINGS_4_SHORT = registerSound("block.note_two.strings_4_short");
+
+        BLOCK_NOTE_ONE_STRINGS_4_SHORT = registerSound("block.note_one.strings_4_short");
+
+        BLOCK_NOTE_SIX_STRINGS_4_SHORT = registerSound("block.note_six.strings_4_short");
+
+        BLOCK_NOTE_SEVEN_STRINGS_4_SHORT = registerSound("block.note_seven.strings_4_short");
+
+        BLOCK_NOTE_FIVE_STRINGS_1_SHORT = registerSound("block.note_five.strings_1_short");
+
+        BLOCK_NOTE_FOUR_STRINGS_1_SHORT = registerSound("block.note_four.strings_1_short");
+
+        BLOCK_NOTE_THREE_STRINGS_1_SHORT = registerSound("block.note_three.strings_1_short");
+
+        BLOCK_NOTE_TWO_STRINGS_1_SHORT = registerSound("block.note_two.strings_1_short");
+
+        BLOCK_NOTE_ONE_STRINGS_1_SHORT = registerSound("block.note_one.strings_1_short");
+
+        BLOCK_NOTE_SIX_STRINGS_1_SHORT = registerSound("block.note_six.strings_1_short");
+
+        BLOCK_NOTE_SEVEN_STRINGS_1_SHORT = registerSound("block.note_seven.strings_1_short");
+
+        BLOCK_NOTE_FIVE_STRINGS_5_SHORT = registerSound("block.note_five.strings_5_short");
+
+        BLOCK_NOTE_FOUR_STRINGS_5_SHORT = registerSound("block.note_four.strings_5_short");
+
+        BLOCK_NOTE_THREE_STRINGS_5_SHORT = registerSound("block.note_three.strings_5_short");
+
+        BLOCK_NOTE_TWO_STRINGS_5_SHORT = registerSound("block.note_two.strings_5_short");
+
+        BLOCK_NOTE_ONE_STRINGS_5_SHORT = registerSound("block.note_one.strings_5_short");
+
+        BLOCK_NOTE_SIX_STRINGS_5_SHORT = registerSound("block.note_six.strings_5_short");
+
+        BLOCK_NOTE_SEVEN_STRINGS_5_SHORT = registerSound("block.note_seven.strings_5_short");
     }
 
     private static SoundEvent registerSound(String name){

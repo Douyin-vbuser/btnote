@@ -1174,5 +1174,145 @@
   "block.note_four.woodwind_5": {
     "subtitle": "note_four.woodwind_5",
     "sounds": ["btnote:block/note_four/woodwind_5"]
+  },
+  "block.note_five.strings_3_short": {
+    "subtitle": "note_five.strings_3_short",
+    "sounds": [ "btnote:block/note_five/strings_3_short" ]
+  },
+  "block.note_three.strings_3_short": {
+    "subtitle": "note_two.strings_3_short",
+    "sounds": ["btnote:block/note_three/strings_3_short"]
+  },
+  "block.note_two.strings_3_short": {
+    "subtitle": "note_two.strings_3_short",
+    "sounds": ["btnote:block/note_two/strings_3_short"]
+  },
+  "block.note_one.strings_3_short": {
+    "subtitle": "note_one.strings_3_short",
+    "sounds": ["btnote:block/note_one/strings_3_short"]
+  },
+  "block.note_six.strings_3_short": {
+    "subtitle": "note_six.strings_3_short",
+    "sounds": ["btnote:block/note_six/strings_3_short"]
+  },
+  "block.note_seven.strings_3_short": {
+    "subtitle": "note_seven.strings_3_short",
+    "sounds": ["btnote:block/note_seven/strings_3_short"]
+  },
+  "block.note_four.strings_3_short": {
+    "subtitle": "note_four.strings_3_short",
+    "sounds": ["btnote:block/note_four/strings_3_short"]
+  },
+  "block.note_five.strings_1_short": {
+    "subtitle": "note_five.strings_1_short",
+    "sounds": [ "btnote:block/note_five/strings_1_short" ]
+  },
+  "block.note_three.strings_1_short": {
+    "subtitle": "note_two.strings_1_short",
+    "sounds": ["btnote:block/note_three/strings_1_short"]
+  },
+  "block.note_two.strings_1_short": {
+    "subtitle": "note_two.strings_1_short",
+    "sounds": ["btnote:block/note_two/strings_1_short"]
+  },
+  "block.note_one.strings_1_short": {
+    "subtitle": "note_one.strings_1_short",
+    "sounds": ["btnote:block/note_one/strings_1_short"]
+  },
+  "block.note_six.strings_1_short": {
+    "subtitle": "note_six.strings_1_short",
+    "sounds": ["btnote:block/note_six/strings_1_short"]
+  },
+  "block.note_seven.strings_1_short": {
+    "subtitle": "note_seven.strings_1_short",
+    "sounds": ["btnote:block/note_seven/strings_1_short"]
+  },
+  "block.note_four.strings_1_short": {
+    "subtitle": "note_four.strings_1_short",
+    "sounds": ["btnote:block/note_four/strings_1_short"]
+  },
+  "block.note_five.strings_2_short": {
+    "subtitle": "note_five.strings_2_short",
+    "sounds": [ "btnote:block/note_five/strings_2_short" ]
+  },
+  "block.note_three.strings_2_short": {
+    "subtitle": "note_two.strings_2_short",
+    "sounds": ["btnote:block/note_three/strings_2_short"]
+  },
+  "block.note_two.strings_2_short": {
+    "subtitle": "note_two.strings_2_short",
+    "sounds": ["btnote:block/note_two/strings_2_short"]
+  },
+  "block.note_one.strings_2_short": {
+    "subtitle": "note_one.strings_2_short",
+    "sounds": ["btnote:block/note_one/strings_2_short"]
+  },
+  "block.note_six.strings_2_short": {
+    "subtitle": "note_six.strings_2_short",
+    "sounds": ["btnote:block/note_six/strings_2_short"]
+  },
+  "block.note_seven.strings_2_short": {
+    "subtitle": "note_seven.strings_2_short",
+    "sounds": ["btnote:block/note_seven/strings_2_short"]
+  },
+  "block.note_four.strings_2_short": {
+    "subtitle": "note_four.strings_2_short",
+    "sounds": ["btnote:block/note_four/strings_2_short"]
+  },
+  "block.note_five.strings_4_short": {
+    "subtitle": "note_five.strings_4_short",
+    "sounds": [ "btnote:block/note_five/strings_4_short" ]
+  },
+  "block.note_three.strings_4_short": {
+    "subtitle": "note_two.strings_4_short",
+    "sounds": ["btnote:block/note_three/strings_4_short"]
+  },
+  "block.note_two.strings_4_short": {
+    "subtitle": "note_two.strings_4_short",
+    "sounds": ["btnote:block/note_two/strings_4_short"]
+  },
+  "block.note_one.strings_4_short": {
+    "subtitle": "note_one.strings_4_short",
+    "sounds": ["btnote:block/note_one/strings_4_short"]
+  },
+  "block.note_six.strings_4_short": {
+    "subtitle": "note_six.strings_4_short",
+    "sounds": ["btnote:block/note_six/strings_4_short"]
+  },
+  "block.note_seven.strings_4_short": {
+    "subtitle": "note_seven.strings_4_short",
+    "sounds": ["btnote:block/note_seven/strings_4_short"]
+  },
+  "block.note_four.strings_4_short": {
+    "subtitle": "note_four.strings_4_short",
+    "sounds": ["btnote:block/note_four/strings_4_short"]
+  },
+  "block.note_five.strings_5_short": {
+    "subtitle": "note_five.strings_5_short",
+    "sounds": [ "btnote:block/note_five/strings_5_short" ]
+  },
+  "block.note_three.strings_5_short": {
+    "subtitle": "note_two.strings_5_short",
+    "sounds": ["btnote:block/note_three/strings_5_short"]
+  },
+  "block.note_two.strings_5_short": {
+    "subtitle": "note_two.strings_5_short",
+    "sounds": ["btnote:block/note_two/strings_5_short"]
+  },
+  "block.note_one.strings_5_short": {
+    "subtitle": "note_one.strings_5_short",
+    "sounds": ["btnote:block/note_one/strings_5_short"]
+  },
+  "block.note_six.strings_5_short": {
+    "subtitle": "note_six.strings_5_short",
+    "sounds": ["btnote:block/note_six/strings_5_short"]
+  },
+  "block.note_seven.strings_5_short": {
+    "subtitle": "note_seven.strings_5_short",
+    "sounds": ["btnote:block/note_seven/strings_5_short"]
+  },
+  "block.note_four.strings_5_short": {
+    "subtitle": "note_four.strings_5_short",
+    "sounds": ["btnote:block/note_four/strings_5_short"]
   }
 }

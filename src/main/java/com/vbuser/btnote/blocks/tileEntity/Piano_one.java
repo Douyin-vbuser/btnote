@@ -74,7 +74,7 @@ public class Piano_one extends BlockBase {
         }
         if(playerIn.getHeldItemMainhand().getItem() == Item.getItemFromBlock(Blocks.NOTEBLOCK)){
             int pitch = (state.getValue(PITCH)<2)?1:(state.getValue(PITCH)>6)?5:(state.getValue(PITCH)-1);
-            worldIn.setBlockState(pos, ModBlocks.NOTE_ONE.getBlockState().getBaseState().withProperty(Note_one.PITCH, pitch).withProperty(Note_one.LOCKED,false), 2);
+            worldIn.setBlockState(pos, ModBlocks.NOTE_ONE.getBlockState().getBaseState().withProperty(Note_one.PITCH, pitch).withProperty(Note_one.LONE,false), 2);
         }
         return true;
     }
@@ -103,25 +103,25 @@ public class Piano_one extends BlockBase {
                 if (flag) {
                     if(state.getValue(HARD)) {
                         if (state.getValue(PITCH) == 1) {
-                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_1, SoundCategory.BLOCKS, 3.0F, 1.0F);
+                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_1, SoundCategory.BLOCKS, 10.0F, 1.0F);
                         }
                         if (state.getValue(PITCH) == 2) {
-                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_2, SoundCategory.BLOCKS, 3.0F, 1.0F);
+                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_2, SoundCategory.BLOCKS, 10.0F, 1.0F);
                         }
                         if (state.getValue(PITCH) == 3) {
-                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_3, SoundCategory.BLOCKS, 3.0F, 1.0F);
+                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_3, SoundCategory.BLOCKS, 10.0F, 1.0F);
                         }
                         if (state.getValue(PITCH) == 4) {
-                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_4, SoundCategory.BLOCKS, 3.0F, 1.0F);
+                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_4, SoundCategory.BLOCKS, 10.0F, 1.0F);
                         }
                         if (state.getValue(PITCH) == 5) {
-                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_5, SoundCategory.BLOCKS, 3.0F, 1.0F);
+                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_5, SoundCategory.BLOCKS, 10.0F, 1.0F);
                         }
                         if (state.getValue(PITCH) == 6) {
-                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_6, SoundCategory.BLOCKS, 3.0F, 1.0F);
+                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_6, SoundCategory.BLOCKS, 10.0F, 1.0F);
                         }
                         if (state.getValue(PITCH) == 7) {
-                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_7, SoundCategory.BLOCKS, 3.0F, 1.0F);
+                            worldIn.playSound(null, pos, SoundsHandler.BLOCK_PIANO_ONE_7, SoundCategory.BLOCKS, 10.0F, 1.0F);
                         }
                     }
                     else{
