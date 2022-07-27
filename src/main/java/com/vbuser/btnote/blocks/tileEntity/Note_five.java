@@ -138,7 +138,9 @@ public class Note_five extends BlockBase {
                             }
                             if(block == Blocks.LEAVES){
                                worldIn.playSound(null,pos,SoundsHandler.BLOCK_NOTE_FIVE_WOODWIND_3,SoundCategory.BLOCKS,3.0F,1.0F);
-                           }
+                            }
+                            if(block == Blocks.AIR){
+                            }
                       }
                         if (state.getValue(PITCH) == 2) {
                             if (block == Blocks.DIRT) {
