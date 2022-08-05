@@ -1,7 +1,6 @@
 package com.vbuser.btnote.init;
 
 import com.vbuser.btnote.Main;
-import com.vbuser.btnote.blocks.*;
 import com.vbuser.btnote.blocks.tileEntity.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

@@ -20,5 +20,6 @@ public class TileEntityHandler {
         GameRegistry.registerTileEntity(TileEntityPianoTwo.class,new ResourceLocation(Reference.Mod_ID+":piano_two"));
         GameRegistry.registerTileEntity(TileEntityPianoThree.class,new ResourceLocation(Reference.Mod_ID+":piano_three"));
         GameRegistry.registerTileEntity(TileEntityPianoFour.class,new ResourceLocation(Reference.Mod_ID+":piano_four"));
+        GameRegistry.registerTileEntity(TileEntityBtnoteX.class,new ResourceLocation(Reference.Mod_ID+":btnote_x"));
     }
 }

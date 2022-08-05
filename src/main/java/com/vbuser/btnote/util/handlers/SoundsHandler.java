@@ -665,6 +665,16 @@ public class SoundsHandler{
 
     public static SoundEvent BLOCK_NOTE_SEVEN_STRINGS_5_SHORT;
 
+    public static SoundEvent BLOCK_NOTE_X_LANQIU;
+
+    public static SoundEvent BLOCK_NOTE_X_JI;
+
+    public static SoundEvent BLOCK_NOTE_X_NI;
+
+    public static SoundEvent BLOCK_NOTE_X_TAI;
+
+    public static SoundEvent BLOCK_NOTE_X_MEI;
+
 
     public static void registerSounds(){
 
@@ -1325,6 +1335,16 @@ public class SoundsHandler{
         BLOCK_NOTE_SIX_STRINGS_5_SHORT = registerSound("block.note_six.strings_5_short");
 
         BLOCK_NOTE_SEVEN_STRINGS_5_SHORT = registerSound("block.note_seven.strings_5_short");
+
+        BLOCK_NOTE_X_JI = registerSound("block.note_x.ji");
+
+        BLOCK_NOTE_X_LANQIU = registerSound("block.note_x.lanqiu");
+
+        BLOCK_NOTE_X_NI = registerSound("block.note_x.ni");
+
+        BLOCK_NOTE_X_TAI = registerSound("block.note_x.tai");
+
+        BLOCK_NOTE_X_MEI = registerSound("block.note_x.mei");
     }
 
     private static SoundEvent registerSound(String name){

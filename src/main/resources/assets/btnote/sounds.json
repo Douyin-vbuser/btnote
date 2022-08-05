@@ -1314,5 +1314,25 @@
   "block.note_four.strings_5_short": {
     "subtitle": "note_four.strings_5_short",
     "sounds": ["btnote:block/note_four/strings_5_short"]
+  },
+  "block.note_x.lanqiu": {
+    "subtitle": "note_x.lanqiu",
+    "sounds": ["btnote:block/note_x/lanqiu"]
+  },
+  "block.note_x.ji": {
+    "subtitle": "note_x.ji",
+    "sounds": ["btnote:block/note_x/ji"]
+  },
+  "block.note_x.ni": {
+    "subtitle": "note_x.ni",
+    "sounds": ["btnote:block/note_x/ni"]
+  },
+  "block.note_x.tai": {
+    "subtitle": "note_x.tai",
+    "sounds": ["btnote:block/note_x/tai"]
+  },
+  "block.note_x.mei": {
+    "subtitle": "note_x.mei",
+    "sounds": ["btnote:block/note_x/mei"]
   }
 }
